@@ -1,6 +1,6 @@
 # Requiem Skill Calculator (English)
 
-A web-based character build planner for **Requiem: Memento Mori** (Desiderium Mortis) MMORPG with full English translation and modern interface.
+A web-based character build planner for **Requiem** (Desiderium Mortis) MMORPG with full English translation and modern interface.
 
 ![Requiem Logo](Requiemlogo.png)
 
