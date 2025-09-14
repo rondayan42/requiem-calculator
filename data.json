@@ -1,0 +1,6736 @@
+{
+  "groups": [
+    {
+      "id": "turian",
+      "name": "Turian"
+    },
+    {
+      "id": "bartuk",
+      "name": "Bartuk"
+    },
+    {
+      "id": "kruxena",
+      "name": "Kruxena"
+    },
+    {
+      "id": "xenoa",
+      "name": "Xenoa"
+    }
+  ],
+  "jobs": {
+    "turian": [
+      {
+        "id": "2",
+        "name": "Defender",
+        "specs": [
+          {
+            "id": "2",
+            "name": "Defender"
+          },
+          {
+            "id": "3",
+            "name": "Commander"
+          },
+          {
+            "id": "4",
+            "name": "Protector"
+          }
+        ]
+      },
+      {
+        "id": "6",
+        "name": "Templar",
+        "specs": [
+          {
+            "id": "6",
+            "name": "Templar"
+          },
+          {
+            "id": "7",
+            "name": "Tempest"
+          },
+          {
+            "id": "8",
+            "name": "Radient"
+          }
+        ]
+      }
+    ],
+    "bartuk": [
+      {
+        "id": "12",
+        "name": "Warrior",
+        "specs": [
+          {
+            "id": "12",
+            "name": "Warrior"
+          },
+          {
+            "id": "13",
+            "name": "Berserker"
+          },
+          {
+            "id": "14",
+            "name": "Warlord"
+          }
+        ]
+      },
+      {
+        "id": "16",
+        "name": "Shaman",
+        "specs": [
+          {
+            "id": "16",
+            "name": "Shaman"
+          },
+          {
+            "id": "17",
+            "name": "Forsaker"
+          },
+          {
+            "id": "18",
+            "name": "Mystic"
+          }
+        ]
+      }
+    ],
+    "kruxena": [
+      {
+        "id": "32",
+        "name": "Rogue",
+        "specs": [
+          {
+            "id": "32",
+            "name": "Rogue"
+          },
+          {
+            "id": "33",
+            "name": "Shadowrunner"
+          },
+          {
+            "id": "34",
+            "name": "Assassin"
+          }
+        ]
+      },
+      {
+        "id": "36",
+        "name": "Soul Hunter",
+        "specs": [
+          {
+            "id": "36",
+            "name": "Soulhunter"
+          },
+          {
+            "id": "37",
+            "name": "Defiler"
+          },
+          {
+            "id": "38",
+            "name": "Dominator"
+          }
+        ]
+      }
+    ],
+    "xenoa": [
+      {
+        "id": "22",
+        "name": "Hunter",
+        "specs": [
+          {
+            "id": "22",
+            "name": "Hunter"
+          },
+          {
+            "id": "23",
+            "name": "Avenger"
+          },
+          {
+            "id": "24",
+            "name": "Ranger"
+          }
+        ]
+      },
+      {
+        "id": "26",
+        "name": "Battle Mage",
+        "specs": [
+          {
+            "id": "26",
+            "name": "Battle Mage"
+          },
+          {
+            "id": "27",
+            "name": "Battle Mage"
+          },
+          {
+            "id": "28",
+            "name": "Elementalist"
+          }
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "2": [
+      {
+        "id": "1100",
+        "name": "Return",
+        "maxLevel": 10
+      },
+      {
+        "id": "10100",
+        "name": "Knight Slash",
+        "maxLevel": 10
+      },
+      {
+        "id": "11200",
+        "name": "Concentrate",
+        "maxLevel": 10
+      },
+      {
+        "id": "10800",
+        "name": "Point Piercing",
+        "maxLevel": 10
+      },
+      {
+        "id": "11100",
+        "name": "Bless of Body",
+        "maxLevel": 10
+      },
+      {
+        "id": "11300",
+        "name": "Beam Slash",
+        "maxLevel": 10,
+        "requires": {
+          "skill downtime": {
+            "name": "8.6 sec"
+          },
+          "first job": {
+            "name": "Skill Mastery 8",
+            "level": 18
+          }
+        },
+        "info": {
+          "type": "Offensive Skill",
+          "levels": 5,
+          "cast_time": "1.5 sec",
+          "cooldown": "8.6 sec",
+          "weapons": [
+            "Sword",
+            "Axe",
+            "Bludgeon",
+            "Two-Handed Sword",
+            "Two-Handed Axe",
+            "Two-Handed Bludgeon"
+          ],
+          "range": "20.0 m",
+          "target": "Enemy"
+        },
+        "progression": {
+          "1": [],
+          "2": [],
+          "3": [],
+          "4": [],
+          "5": [],
+          "damage": [],
+          "mp consumption": []
+        }
+      },
+      {
+        "id": "11000",
+        "name": "Avenger",
+        "maxLevel": 10
+      },
+      {
+        "id": "11600",
+        "name": "Speed Weapon",
+        "maxLevel": 10
+      },
+      {
+        "id": "10200",
+        "name": "Desire for Life",
+        "maxLevel": 10
+      },
+      {
+        "id": "10600",
+        "name": "Knight Crash",
+        "maxLevel": 10
+      },
+      {
+        "id": "11800",
+        "name": "Shield Hit",
+        "maxLevel": 10
+      },
+      {
+        "id": "13000",
+        "name": "Wide Anger",
+        "maxLevel": 10
+      },
+      {
+        "id": "11400",
+        "name": "Defense Up",
+        "maxLevel": 10,
+        "requires": {
+          "first job": {
+            "name": "Skill Mastery 36",
+            "level": 46
+          }
+        },
+        "info": {
+          "type": "Supportive Skill",
+          "levels": 5,
+          "weapons": [
+            "-"
+          ],
+          "range": "Self",
+          "target": "Self"
+        }
+      }
+    ],
+    "3": [
+      {
+        "id": "1100",
+        "name": "Return",
+        "maxLevel": 10
+      },
+      {
+        "id": "10100",
+        "name": "Knight Slash",
+        "maxLevel": 10
+      },
+      {
+        "id": "11200",
+        "name": "Concentrate",
+        "maxLevel": 10
+      },
+      {
+        "id": "10800",
+        "name": "Point Piercing",
+        "maxLevel": 10
+      },
+      {
+        "id": "11100",
+        "name": "Bless of Body",
+        "maxLevel": 10
+      },
+      {
+        "id": "11300",
+        "name": "Jump Slash",
+        "maxLevel": 10
+      },
+      {
+        "id": "11000",
+        "name": "Avenger",
+        "maxLevel": 10
+      },
+      {
+        "id": "11600",
+        "name": "Speed Weapon",
+        "maxLevel": 10
+      },
+      {
+        "id": "10200",
+        "name": "Desire for Life",
+        "maxLevel": 10
+      },
+      {
+        "id": "10600",
+        "name": "Knight Crash",
+        "maxLevel": 10
+      },
+      {
+        "id": "11800",
+        "name": "Shield Hit",
+        "maxLevel": 10
+      },
+      {
+        "id": "13000",
+        "name": "Wide Anger",
+        "maxLevel": 10
+      },
+      {
+        "id": "11400",
+        "name": "Defense Up",
+        "maxLevel": 10,
+        "requires": {
+          "first job": {
+            "name": "Skill Mastery 36",
+            "level": 46
+          }
+        },
+        "info": {
+          "type": "Supportive Skill",
+          "levels": 5,
+          "weapons": [
+            "-"
+          ],
+          "range": "Self",
+          "target": "Self"
+        }
+      },
+      {
+        "id": "12800",
+        "name": "Triple Slash",
+        "maxLevel": 10
+      },
+      {
+        "id": "10400",
+        "name": "Smash Light",
+        "maxLevel": 10
+      },
+      {
+        "id": "10300",
+        "name": "Rush",
+        "maxLevel": 10
+      },
+      {
+        "id": "13300",
+        "name": "Wide Concentrate",
+        "maxLevel": 10
+      },
+      {
+        "id": "12300",
+        "name": "OneHand Master",
+        "maxLevel": 10
+      },
+      {
+        "id": "12700",
+        "name": "Spider Web",
+        "maxLevel": 10
+      },
+      {
+        "id": "12000",
+        "name": "Screw Driver",
+        "maxLevel": 10
+      },
+      {
+        "id": "13700",
+        "name": "Full Moon",
+        "maxLevel": 10
+      },
+      {
+        "id": "12900",
+        "name": "Interrupt",
+        "maxLevel": 10
+      },
+      {
+        "id": "13500",
+        "name": "Intention",
+        "maxLevel": 10
+      },
+      {
+        "id": "14200",
+        "name": "Courage",
+        "maxLevel": 10,
+        "requires": {
+          "skill downtime": {
+            "name": "31.0 sec"
+          },
+          "first job": {
+            "name": "Skill Mastery 4",
+            "level": 14
+          }
+        },
+        "info": {
+          "type": "Supportive Skill",
+          "levels": 5,
+          "cast_time": "Instant Cast",
+          "cooldown": "31.0 sec",
+          "target": "Self"
+        },
+        "progression": {
+          "1": [],
+          "2": [],
+          "3": [],
+          "4": [],
+          "5": [],
+          "short range attack strength": [],
+          "duration": [],
+          "mp consumption": []
+        }
+      }
+    ],
+    "4": [
+      {
+        "id": "1100",
+        "name": "Return",
+        "maxLevel": 10
+      },
+      {
+        "id": "10100",
+        "name": "Knight Slash",
+        "maxLevel": 10
+      },
+      {
+        "id": "11200",
+        "name": "Concentrate",
+        "maxLevel": 10
+      },
+      {
+        "id": "10800",
+        "name": "Point Piercing",
+        "maxLevel": 10
+      },
+      {
+        "id": "11100",
+        "name": "Bless of Body",
+        "maxLevel": 10
+      },
+      {
+        "id": "11300",
+        "name": "Jump Slash",
+        "maxLevel": 10
+      },
+      {
+        "id": "11000",
+        "name": "Avenger",
+        "maxLevel": 10
+      },
+      {
+        "id": "11600",
+        "name": "Speed Weapon",
+        "maxLevel": 10
+      },
+      {
+        "id": "10200",
+        "name": "Desire for Life",
+        "maxLevel": 10
+      },
+      {
+        "id": "10600",
+        "name": "Knight Crash",
+        "maxLevel": 10
+      },
+      {
+        "id": "11800",
+        "name": "Shield Hit",
+        "maxLevel": 10
+      },
+      {
+        "id": "13000",
+        "name": "Wide Anger",
+        "maxLevel": 10
+      },
+      {
+        "id": "11400",
+        "name": "Defense Up",
+        "maxLevel": 10,
+        "requires": {
+          "first job": {
+            "name": "Skill Mastery 36",
+            "level": 46
+          }
+        },
+        "info": {
+          "type": "Supportive Skill",
+          "levels": 5,
+          "weapons": [
+            "-"
+          ],
+          "range": "Self",
+          "target": "Self"
+        }
+      },
+      {
+        "id": "12200",
+        "name": "Low Blow",
+        "maxLevel": 10
+      },
+      {
+        "id": "12600",
+        "name": "Remedy",
+        "maxLevel": 10
+      },
+      {
+        "id": "10900",
+        "name": "Attention",
+        "maxLevel": 10
+      },
+      {
+        "id": "11500",
+        "name": "Shield Intensify",
+        "maxLevel": 10
+      },
+      {
+        "id": "12500",
+        "name": "Others Remedy",
+        "maxLevel": 10
+      },
+      {
+        "id": "11900",
+        "name": "Square Defence",
+        "maxLevel": 10
+      },
+      {
+        "id": "13200",
+        "name": "Strong Shield",
+        "maxLevel": 10
+      },
+      {
+        "id": "13800",
+        "name": "Light Party Heal",
+        "maxLevel": 10
+      },
+      {
+        "id": "11700",
+        "name": "Shield Sense",
+        "maxLevel": 10
+      },
+      {
+        "id": "49400",
+        "name": "Cure Position",
+        "maxLevel": 10
+      }
+    ],
+    "6": [
+      {
+        "id": "1200",
+        "name": "Return",
+        "maxLevel": 10
+      },
+      {
+        "id": "15200",
+        "name": "Lightning Bolt",
+        "maxLevel": 10
+      },
+      {
+        "id": "16100",
+        "name": "Self Heal",
+        "maxLevel": 10
+      },
+      {
+        "id": "15600",
+        "name": "Lightning Shield",
+        "maxLevel": 10
+      },
+      {
+        "id": "16700",
+        "name": "Self Lightning Shock",
+        "maxLevel": 10
+      },
+      {
+        "id": "16200",
+        "name": "Blessing of Haste",
+        "maxLevel": 10,
+        "lvlReq": [
+          43,
+          48,
+          53,
+          58,
+          63
+        ],
+        "requires": {
+          "skill downtime": {
+            "name": "12.5 sec"
+          },
+          "first job": {
+            "name": "Skill Mastery 33",
+            "level": 43
+          },
+          "advanced job": {
+            "name": "Skill Mastery 43",
+            "level": 53
+          }
+        },
+        "info": {
+          "type": "Supportive Skill",
+          "levels": 4,
+          "cast_time": "1.5 sec",
+          "cooldown": "12.5 sec",
+          "range": "30.0 m",
+          "target": "Player"
+        }
+      },
+      {
+        "id": "16500",
+        "name": "Charged Bolt",
+        "maxLevel": 10,
+        "lvlReq": [
+          16,
+          21,
+          26,
+          31,
+          36
+        ],
+        "requires": {
+          "skill downtime": {
+            "name": "8.4 sec"
+          },
+          "first job": {
+            "name": "Skill Mastery 6",
+            "level": 16
+          }
+        },
+        "info": {
+          "type": "Offensive Skill",
+          "levels": 5,
+          "cast_time": "Instant Cast",
+          "cooldown": "8.4 sec",
+          "range": "20.0 m",
+          "target": "Enemy"
+        },
+        "progression": {
+          "1": [],
+          "2": [],
+          "3": [],
+          "4": [],
+          "5": [],
+          "prerequisite level": [],
+          "skill level requirement": [],
+          "mp consumption": [],
+          "lightning property damage": [],
+          "electric shock damage": [],
+          "duration": []
+        }
+      },
+      {
+        "id": "15300",
+        "name": "Light Heal",
+        "maxLevel": 10
+      },
+      {
+        "id": "16800",
+        "name": "Holy Strike",
+        "maxLevel": 10,
+        "lvlReq": [
+          10,
+          15,
+          20,
+          25,
+          30
+        ],
+        "requires": {
+          "skill downtime": {
+            "name": "3.1 sec"
+          },
+          "first job": {
+            "name": "Skill Mastery 0",
+            "level": 10
+          }
+        },
+        "info": {
+          "type": "Offensive Skill",
+          "levels": 5,
+          "cast_time": "Instant Cast",
+          "cooldown": "3.1 sec",
+          "weapons": [
+            "Bludgeon",
+            "Staff",
+            "Wand"
+          ],
+          "range": "Melee",
+          "target": "Enemy"
+        },
+        "progression": {
+          "1": [],
+          "2": [],
+          "3": [],
+          "4": [],
+          "5": [],
+          "prerequisite level": [],
+          "skill level requirement": [],
+          "mp consumption": [],
+          "damage": []
+        }
+      },
+      {
+        "id": "15500",
+        "name": "Lightning Shock",
+        "maxLevel": 10
+      },
+      {
+        "id": "17200",
+        "name": "Thunder Bolt",
+        "maxLevel": 10
+      },
+      {
+        "id": "18300",
+        "name": "Health Recovery",
+        "maxLevel": 10
+      },
+      {
+        "id": "18400",
+        "name": "Meditation",
+        "maxLevel": 10
+      },
+      {
+        "id": "18200",
+        "name": "Magic Shield Intensify",
+        "maxLevel": 10
+      },
+      {
+        "id": "15900",
+        "name": "Sleep",
+        "maxLevel": 10
+      },
+      {
+        "id": "15400",
+        "name": "Rescue",
+        "maxLevel": 10
+      }
+    ],
+    "7": [
+      {
+        "id": "1200",
+        "name": "Return",
+        "maxLevel": 10
+      },
+      {
+        "id": "15200",
+        "name": "Lightning Bolt",
+        "maxLevel": 10
+      },
+      {
+        "id": "16100",
+        "name": "Self Heal",
+        "maxLevel": 10
+      },
+      {
+        "id": "15600",
+        "name": "Lightning Shield",
+        "maxLevel": 10
+      },
+      {
+        "id": "16700",
+        "name": "Self Lightning Shock",
+        "maxLevel": 10
+      },
+      {
+        "id": "16200",
+        "name": "Blessing of Haste",
+        "maxLevel": 10,
+        "lvlReq": [
+          43,
+          48,
+          53,
+          58,
+          63
+        ],
+        "requires": {
+          "skill downtime": {
+            "name": "12.5 sec"
+          },
+          "first job": {
+            "name": "Skill Mastery 33",
+            "level": 43
+          },
+          "advanced job": {
+            "name": "Skill Mastery 43",
+            "level": 53
+          }
+        },
+        "info": {
+          "type": "Supportive Skill",
+          "levels": 4,
+          "cast_time": "1.5 sec",
+          "cooldown": "12.5 sec",
+          "range": "30.0 m",
+          "target": "Player"
+        }
+      },
+      {
+        "id": "16500",
+        "name": "Charged Bolt",
+        "maxLevel": 10,
+        "lvlReq": [
+          16,
+          21,
+          26,
+          31,
+          36
+        ],
+        "requires": {
+          "skill downtime": {
+            "name": "8.4 sec"
+          },
+          "first job": {
+            "name": "Skill Mastery 6",
+            "level": 16
+          }
+        },
+        "info": {
+          "type": "Offensive Skill",
+          "levels": 5,
+          "cast_time": "Instant Cast",
+          "cooldown": "8.4 sec",
+          "range": "20.0 m",
+          "target": "Enemy"
+        },
+        "progression": {
+          "1": [],
+          "2": [],
+          "3": [],
+          "4": [],
+          "5": [],
+          "prerequisite level": [],
+          "skill level requirement": [],
+          "mp consumption": [],
+          "lightning property damage": [],
+          "electric shock damage": [],
+          "duration": []
+        }
+      },
+      {
+        "id": "15300",
+        "name": "Light Heal",
+        "maxLevel": 10
+      },
+      {
+        "id": "16800",
+        "name": "Holy Shield",
+        "maxLevel": 10
+      },
+      {
+        "id": "15500",
+        "name": "Lightning Shock",
+        "maxLevel": 10
+      },
+      {
+        "id": "17200",
+        "name": "Thunder Bolt",
+        "maxLevel": 10
+      },
+      {
+        "id": "18300",
+        "name": "Health Recovery",
+        "maxLevel": 10
+      },
+      {
+        "id": "18400",
+        "name": "Meditation",
+        "maxLevel": 10
+      },
+      {
+        "id": "18200",
+        "name": "Magic Shield Intensify",
+        "maxLevel": 10
+      },
+      {
+        "id": "15900",
+        "name": "Sleep",
+        "maxLevel": 10
+      },
+      {
+        "id": "15400",
+        "name": "Rescue",
+        "maxLevel": 10
+      },
+      {
+        "id": "19100",
+        "name": "Shock Blast",
+        "maxLevel": 10
+      },
+      {
+        "id": "18600",
+        "name": "Holy Light",
+        "maxLevel": 10,
+        "lvlReq": [
+          50,
+          55,
+          60,
+          65,
+          70
+        ],
+        "requires": {
+          "skill downtime": {
+            "name": "23.1 sec"
+          },
+          "advanced job": {
+            "name": "Skill Mastery 40",
+            "level": 50
+          }
+        },
+        "info": {
+          "type": "Offensive Skill",
+          "levels": 5,
+          "cast_time": "1.5 sec",
+          "cooldown": "23.1 sec",
+          "range": "10.0m",
+          "target": "Ground Target"
+        },
+        "progression": {
+          "prerequisite level": [],
+          "skill level requirement": [],
+          "mp consumption": [],
+          "total damage": [],
+          "duration": [],
+          "radius": []
+        }
+      },
+      {
+        "id": "18900",
+        "name": "Blessing of Haste",
+        "maxLevel": 10,
+        "lvlReq": [
+          43,
+          48,
+          53,
+          58,
+          63
+        ],
+        "requires": {
+          "skill downtime": {
+            "name": "12.5 sec"
+          },
+          "first job": {
+            "name": "Skill Mastery 33",
+            "level": 43
+          },
+          "advanced job": {
+            "name": "Skill Mastery 43",
+            "level": 53
+          }
+        },
+        "info": {
+          "type": "Supportive Skill",
+          "levels": 4,
+          "cast_time": "1.5 sec",
+          "cooldown": "12.5 sec",
+          "range": "30.0 m",
+          "target": "Player"
+        }
+      },
+      {
+        "id": "18800",
+        "name": "Haste",
+        "maxLevel": 10
+      },
+      {
+        "id": "17000",
+        "name": "Purify",
+        "maxLevel": 10
+      },
+      {
+        "id": "16000",
+        "name": "Magic Weapon Master",
+        "maxLevel": 10
+      },
+      {
+        "id": "17100",
+        "name": "Holy Light",
+        "maxLevel": 10,
+        "lvlReq": [
+          50,
+          55,
+          60,
+          65,
+          70
+        ],
+        "requires": {
+          "skill downtime": {
+            "name": "23.1 sec"
+          },
+          "advanced job": {
+            "name": "Skill Mastery 40",
+            "level": 50
+          }
+        },
+        "info": {
+          "type": "Offensive Skill",
+          "levels": 5,
+          "cast_time": "1.5 sec",
+          "cooldown": "23.1 sec",
+          "range": "10.0m",
+          "target": "Ground Target"
+        },
+        "progression": {
+          "prerequisite level": [],
+          "skill level requirement": [],
+          "mp consumption": [],
+          "total damage": [],
+          "duration": [],
+          "radius": []
+        }
+      },
+      {
+        "id": "16300",
+        "name": "Blink",
+        "maxLevel": 10,
+        "requires": {
+          "skill downtime": {
+            "name": "10.8 secs"
+          },
+          "advanced job": {
+            "name": "Skill Mastery 42",
+            "level": 52
+          }
+        },
+        "info": {
+          "type": "Active Skill",
+          "levels": 5,
+          "cast_time": "3.0 secs",
+          "cooldown": "10.8 secs"
+        },
+        "progression": {
+          "1": [],
+          "2": [],
+          "3": [],
+          "4": [],
+          "5": [],
+          "teleport to a random location withinxradius": [],
+          "success chance": [],
+          "mp consumption": []
+        }
+      },
+      {
+        "id": "16600",
+        "name": "Holy Reflection",
+        "maxLevel": 10
+      },
+      {
+        "id": "17700",
+        "name": "Lightning Master",
+        "maxLevel": 10
+      },
+      {
+        "id": "19700",
+        "name": "Legerity Seal",
+        "maxLevel": 10
+      }
+    ],
+    "8": [
+      {
+        "id": "1200",
+        "name": "Return",
+        "maxLevel": 10
+      },
+      {
+        "id": "15200",
+        "name": "Lightning Bolt",
+        "maxLevel": 10
+      },
+      {
+        "id": "16100",
+        "name": "Self Heal",
+        "maxLevel": 10
+      },
+      {
+        "id": "15600",
+        "name": "Lightning Shield",
+        "maxLevel": 10
+      },
+      {
+        "id": "16700",
+        "name": "Self Lightning Shock",
+        "maxLevel": 10
+      },
+      {
+        "id": "16200",
+        "name": "Bless of Mana",
+        "maxLevel": 10
+      },
+      {
+        "id": "16500",
+        "name": "Charged Bolt",
+        "maxLevel": 10,
+        "lvlReq": [
+          16,
+          21,
+          26,
+          31,
+          36
+        ],
+        "requires": {
+          "skill downtime": {
+            "name": "8.4 sec"
+          },
+          "first job": {
+            "name": "Skill Mastery 6",
+            "level": 16
+          }
+        },
+        "info": {
+          "type": "Offensive Skill",
+          "levels": 5,
+          "cast_time": "Instant Cast",
+          "cooldown": "8.4 sec",
+          "range": "20.0 m",
+          "target": "Enemy"
+        },
+        "progression": {
+          "1": [],
+          "2": [],
+          "3": [],
+          "4": [],
+          "5": [],
+          "prerequisite level": [],
+          "skill level requirement": [],
+          "mp consumption": [],
+          "lightning property damage": [],
+          "electric shock damage": [],
+          "duration": []
+        }
+      },
+      {
+        "id": "15300",
+        "name": "Light Heal",
+        "maxLevel": 10
+      },
+      {
+        "id": "16800",
+        "name": "Holy Shield",
+        "maxLevel": 10
+      },
+      {
+        "id": "15500",
+        "name": "Lightning Shock",
+        "maxLevel": 10
+      },
+      {
+        "id": "17200",
+        "name": "Thunder Bolt",
+        "maxLevel": 10
+      },
+      {
+        "id": "18300",
+        "name": "Health Recovery",
+        "maxLevel": 10
+      },
+      {
+        "id": "18400",
+        "name": "Meditation",
+        "maxLevel": 10
+      },
+      {
+        "id": "18200",
+        "name": "Magic Shield Intensify",
+        "maxLevel": 10
+      },
+      {
+        "id": "15900",
+        "name": "Sleep",
+        "maxLevel": 10
+      },
+      {
+        "id": "15400",
+        "name": "Rescue",
+        "maxLevel": 10
+      },
+      {
+        "id": "18100",
+        "name": "Curse Resist",
+        "maxLevel": 10
+      },
+      {
+        "id": "15700",
+        "name": "Light Party Heal",
+        "maxLevel": 10
+      },
+      {
+        "id": "18700",
+        "name": "Medium Heal",
+        "maxLevel": 10
+      },
+      {
+        "id": "19600",
+        "name": "Toughness",
+        "maxLevel": 10
+      },
+      {
+        "id": "16900",
+        "name": "Desire for Life",
+        "maxLevel": 10
+      },
+      {
+        "id": "17400",
+        "name": "Devotions",
+        "maxLevel": 10
+      },
+      {
+        "id": "19300",
+        "name": "Medium Party Heal",
+        "maxLevel": 10
+      },
+      {
+        "id": "17600",
+        "name": "Hush",
+        "maxLevel": 10,
+        "lvlReq": [
+          52,
+          57,
+          62,
+          67,
+          72
+        ],
+        "requires": {
+          "skill downtime": {
+            "name": "22.5 sec"
+          },
+          "advanced job": {
+            "name": "Skill Mastery 42",
+            "level": 52
+          }
+        },
+        "info": {
+          "type": "Offensive Skill",
+          "levels": 5,
+          "cast_time": "2.0 sec",
+          "cooldown": "22.5 sec",
+          "range": "15.0 m",
+          "target": "Enemy"
+        },
+        "progression": {
+          "prerequisite level": [
+            57,
+            47,
+            147,
+            "8 sec"
+          ],
+          "skill level requirement": [
+            62,
+            52,
+            167,
+            "12 sec"
+          ],
+          "mp consumption": [
+            67,
+            57,
+            193,
+            "15 sec"
+          ],
+          "duration": [
+            72,
+            62,
+            213,
+            "20 sec"
+          ]
+        }
+      },
+      {
+        "id": "19500",
+        "name": "Mana Shield",
+        "maxLevel": 10
+      },
+      {
+        "id": "19800",
+        "name": "Holy Cure",
+        "maxLevel": 10
+      }
+    ],
+    "12": [
+      {
+        "id": "1300",
+        "name": "Return",
+        "maxLevel": 10
+      },
+      {
+        "id": "20100",
+        "name": "Power Attack",
+        "maxLevel": 10
+      },
+      {
+        "id": "22300",
+        "name": "TwoHand Master",
+        "maxLevel": 10
+      },
+      {
+        "id": "52300",
+        "name": "DoubleHand Master",
+        "maxLevel": 10
+      },
+      {
+        "id": "21700",
+        "name": "Concentrate",
+        "maxLevel": 10
+      },
+      {
+        "id": "22100",
+        "name": "Giant Swing",
+        "maxLevel": 10
+      },
+      {
+        "id": "20200",
+        "name": "Last Ditch",
+        "maxLevel": 10
+      },
+      {
+        "id": "21800",
+        "name": "Armor Breaker",
+        "maxLevel": 10,
+        "requires": {
+          "skill downtime": {
+            "name": "18.6 sec"
+          },
+          "first job": {
+            "name": "Skill Mastery 10",
+            "level": 20
+          }
+        },
+        "info": {
+          "type": "Offensive Skill",
+          "levels": 5,
+          "cast_time": "Instant Cast",
+          "cooldown": "18.6 sec",
+          "weapons": [
+            "Sword",
+            "Axe",
+            "Bludgeon",
+            "Two-Handed Sword",
+            "Two-Handed Axe",
+            "Two-Handed Bludgeon"
+          ],
+          "range": "Melee",
+          "target": "Enemy"
+        },
+        "progression": {
+          "1": [],
+          "2": [],
+          "3": [],
+          "4": [],
+          "5": [],
+          "damage": [],
+          "physical defense": [],
+          "duration": [],
+          "mp consumption": []
+        }
+      },
+      {
+        "id": "20400",
+        "name": "Dash",
+        "maxLevel": 10
+      },
+      {
+        "id": "21200",
+        "name": "Courage",
+        "maxLevel": 10,
+        "requires": {
+          "skill downtime": {
+            "name": "31.0 sec"
+          },
+          "first job": {
+            "name": "Skill Mastery 4",
+            "level": 14
+          }
+        },
+        "info": {
+          "type": "Supportive Skill",
+          "levels": 5,
+          "cast_time": "Instant Cast",
+          "cooldown": "31.0 sec",
+          "target": "Self"
+        },
+        "progression": {
+          "1": [],
+          "2": [],
+          "3": [],
+          "4": [],
+          "5": [],
+          "short range attack strength": [],
+          "duration": [],
+          "mp consumption": []
+        }
+      },
+      {
+        "id": "22800",
+        "name": "Hammer The Butcher",
+        "maxLevel": 10
+      },
+      {
+        "id": "21100",
+        "name": "Threat",
+        "maxLevel": 10
+      },
+      {
+        "id": "24300",
+        "name": "Greater Iron Physics",
+        "maxLevel": 10
+      }
+    ],
+    "13": [
+      {
+        "id": "1300",
+        "name": "Return",
+        "maxLevel": 10
+      },
+      {
+        "id": "20100",
+        "name": "Power Attack",
+        "maxLevel": 10
+      },
+      {
+        "id": "22300",
+        "name": "TwoHand Master",
+        "maxLevel": 10
+      },
+      {
+        "id": "52300",
+        "name": "DoubleHand Master",
+        "maxLevel": 10
+      },
+      {
+        "id": "21700",
+        "name": "Concentrate",
+        "maxLevel": 10
+      },
+      {
+        "id": "22100",
+        "name": "Giant Swing",
+        "maxLevel": 10
+      },
+      {
+        "id": "20200",
+        "name": "Last Ditch",
+        "maxLevel": 10
+      },
+      {
+        "id": "21800",
+        "name": "Armor Breaker",
+        "maxLevel": 10,
+        "requires": {
+          "skill downtime": {
+            "name": "18.6 sec"
+          },
+          "first job": {
+            "name": "Skill Mastery 10",
+            "level": 20
+          }
+        },
+        "info": {
+          "type": "Offensive Skill",
+          "levels": 5,
+          "cast_time": "Instant Cast",
+          "cooldown": "18.6 sec",
+          "weapons": [
+            "Sword",
+            "Axe",
+            "Bludgeon",
+            "Two-Handed Sword",
+            "Two-Handed Axe",
+            "Two-Handed Bludgeon"
+          ],
+          "range": "Melee",
+          "target": "Enemy"
+        },
+        "progression": {
+          "1": [],
+          "2": [],
+          "3": [],
+          "4": [],
+          "5": [],
+          "damage": [],
+          "physical defense": [],
+          "duration": [],
+          "mp consumption": []
+        }
+      },
+      {
+        "id": "20400",
+        "name": "Dash",
+        "maxLevel": 10
+      },
+      {
+        "id": "21200",
+        "name": "Courage",
+        "maxLevel": 10,
+        "requires": {
+          "skill downtime": {
+            "name": "31.0 sec"
+          },
+          "first job": {
+            "name": "Skill Mastery 4",
+            "level": 14
+          }
+        },
+        "info": {
+          "type": "Supportive Skill",
+          "levels": 5,
+          "cast_time": "Instant Cast",
+          "cooldown": "31.0 sec",
+          "target": "Self"
+        },
+        "progression": {
+          "1": [],
+          "2": [],
+          "3": [],
+          "4": [],
+          "5": [],
+          "short range attack strength": [],
+          "duration": [],
+          "mp consumption": []
+        }
+      },
+      {
+        "id": "22800",
+        "name": "Hammer The Butcher",
+        "maxLevel": 10
+      },
+      {
+        "id": "21100",
+        "name": "Threat",
+        "maxLevel": 10
+      },
+      {
+        "id": "24300",
+        "name": "Greater Iron Physics",
+        "maxLevel": 10
+      },
+      {
+        "id": "52200",
+        "name": "Prometheus",
+        "maxLevel": 10
+      },
+      {
+        "id": "20500",
+        "name": "Head Smash",
+        "maxLevel": 10
+      },
+      {
+        "id": "22700",
+        "name": "Reckless",
+        "maxLevel": 10
+      },
+      {
+        "id": "23400",
+        "name": "Heart Hunter",
+        "maxLevel": 10
+      },
+      {
+        "id": "52100",
+        "name": "Low Blow",
+        "maxLevel": 10
+      },
+      {
+        "id": "20900",
+        "name": "Hamstring",
+        "maxLevel": 10
+      },
+      {
+        "id": "23100",
+        "name": "Unblocking",
+        "maxLevel": 10
+      },
+      {
+        "id": "20600",
+        "name": "Brave",
+        "maxLevel": 10
+      },
+      {
+        "id": "22200",
+        "name": "Berserker",
+        "maxLevel": 10
+      },
+      {
+        "id": "52700",
+        "name": "Bartuk Legacy",
+        "maxLevel": 10
+      },
+      {
+        "id": "52400",
+        "name": "Giant Swing",
+        "maxLevel": 10
+      },
+      {
+        "id": "23900",
+        "name": "Shout",
+        "maxLevel": 10
+      },
+      {
+        "id": "52500",
+        "name": "Intention",
+        "maxLevel": 10
+      },
+      {
+        "id": "52600",
+        "name": "Self Heal",
+        "maxLevel": 10
+      },
+      {
+        "id": "52800",
+        "name": "Deadly Bomb",
+        "maxLevel": 10,
+        "requires": {
+          "skill downtime": {
+            "name": "20.0 sec"
+          },
+          "first job": {
+            "name": "Skill Mastery 14",
+            "level": 24
+          }
+        },
+        "info": {
+          "type": "Offensive Skill",
+          "levels": 5,
+          "cast_time": "1.5 sec",
+          "cooldown": "20.0 sec",
+          "range": "20.0 m",
+          "target": "Enemy"
+        },
+        "progression": {
+          "1": [],
+          "2": [],
+          "3": [],
+          "4": [],
+          "5": [],
+          "area effective damage": [],
+          "effective range": [],
+          "duration": [],
+          "mp consumption": []
+        }
+      },
+      {
+        "id": "24000",
+        "name": "Counterattack",
+        "maxLevel": 10,
+        "requires": {
+          "skill downtime": {
+            "name": "26.0 sec"
+          },
+          "first job": {
+            "name": "Skill Mastery 16",
+            "level": 26
+          }
+        },
+        "info": {
+          "type": "Supportive Skill",
+          "levels": 5,
+          "cast_time": "2.0 sec",
+          "cooldown": "26.0 sec",
+          "target": "Self"
+        },
+        "progression": {
+          "1": [],
+          "2": [],
+          "3": [],
+          "4": [],
+          "5": [],
+          "short range physical defense": [],
+          "reflection of short rangeattack strength (% of damage)": [],
+          "reflection chance": [],
+          "duration": [],
+          "mp consumption": []
+        }
+      }
+    ],
+    "14": [
+      {
+        "id": "1300",
+        "name": "Return",
+        "maxLevel": 10
+      },
+      {
+        "id": "20100",
+        "name": "Power Attack",
+        "maxLevel": 10
+      },
+      {
+        "id": "22300",
+        "name": "TwoHand Master",
+        "maxLevel": 10
+      },
+      {
+        "id": "52300",
+        "name": "DoubleHand Master",
+        "maxLevel": 10
+      },
+      {
+        "id": "21700",
+        "name": "Concentrate",
+        "maxLevel": 10
+      },
+      {
+        "id": "22100",
+        "name": "Giant Swing",
+        "maxLevel": 10
+      },
+      {
+        "id": "20200",
+        "name": "Last Ditch",
+        "maxLevel": 10
+      },
+      {
+        "id": "21800",
+        "name": "Armor Breaker",
+        "maxLevel": 10,
+        "requires": {
+          "skill downtime": {
+            "name": "18.6 sec"
+          },
+          "first job": {
+            "name": "Skill Mastery 10",
+            "level": 20
+          }
+        },
+        "info": {
+          "type": "Offensive Skill",
+          "levels": 5,
+          "cast_time": "Instant Cast",
+          "cooldown": "18.6 sec",
+          "weapons": [
+            "Sword",
+            "Axe",
+            "Bludgeon",
+            "Two-Handed Sword",
+            "Two-Handed Axe",
+            "Two-Handed Bludgeon"
+          ],
+          "range": "Melee",
+          "target": "Enemy"
+        },
+        "progression": {
+          "1": [],
+          "2": [],
+          "3": [],
+          "4": [],
+          "5": [],
+          "damage": [],
+          "physical defense": [],
+          "duration": [],
+          "mp consumption": []
+        }
+      },
+      {
+        "id": "20400",
+        "name": "Dash",
+        "maxLevel": 10
+      },
+      {
+        "id": "21200",
+        "name": "Courage",
+        "maxLevel": 10,
+        "requires": {
+          "skill downtime": {
+            "name": "31.0 sec"
+          },
+          "first job": {
+            "name": "Skill Mastery 4",
+            "level": 14
+          }
+        },
+        "info": {
+          "type": "Supportive Skill",
+          "levels": 5,
+          "cast_time": "Instant Cast",
+          "cooldown": "31.0 sec",
+          "target": "Self"
+        },
+        "progression": {
+          "1": [],
+          "2": [],
+          "3": [],
+          "4": [],
+          "5": [],
+          "short range attack strength": [],
+          "duration": [],
+          "mp consumption": []
+        }
+      },
+      {
+        "id": "22800",
+        "name": "Hammer The Butcher",
+        "maxLevel": 10
+      },
+      {
+        "id": "21100",
+        "name": "Threat",
+        "maxLevel": 10
+      },
+      {
+        "id": "24300",
+        "name": "Greater Iron Physics",
+        "maxLevel": 10
+      },
+      {
+        "id": "20800",
+        "name": "Full Swing",
+        "maxLevel": 10
+      },
+      {
+        "id": "24700",
+        "name": "Art of War",
+        "maxLevel": 10
+      },
+      {
+        "id": "23500",
+        "name": "Bugle of Carnage",
+        "maxLevel": 10,
+        "requires": {
+          "skill downtime": {
+            "name": "35.0 sec"
+          },
+          "advanced job": {
+            "name": "Skill Mastery 40",
+            "level": 50
+          }
+        },
+        "info": {
+          "type": "Supportive Skill",
+          "levels": 4,
+          "cast_time": "2.0 sec",
+          "cooldown": "35.0 sec",
+          "range": "30.0 meters",
+          "target": "Party"
+        },
+        "progression": {
+          "1": [],
+          "2": [],
+          "3": [],
+          "4": [],
+          "5": [],
+          "nearby party member's attack strength": [],
+          "duration": [],
+          "mp consumption": [],
+          "level required": []
+        }
+      },
+      {
+        "id": "20700",
+        "name": "Deflect",
+        "maxLevel": 10,
+        "requires": {
+          "skill downtime": {
+            "name": "7.2 sec"
+          },
+          "first job": {
+            "name": "Skill Mastery 30",
+            "level": 30
+          }
+        },
+        "info": {
+          "type": "Supportive Skill",
+          "levels": 5,
+          "cast_time": "Instant Cast",
+          "cooldown": "7.2 sec",
+          "weapons": [
+            "Two-Handed Sword",
+            "Two-Handed Axe",
+            "Two-Handed Bludgeon"
+          ],
+          "target": "Self"
+        }
+      },
+      {
+        "id": "22400",
+        "name": "Petition",
+        "maxLevel": 10
+      },
+      {
+        "id": "23200",
+        "name": "Bear-like Stamina",
+        "maxLevel": 10,
+        "requires": {
+          "skill downtime": {
+            "name": "37.0 sec"
+          },
+          "first job": {
+            "name": "Skill Mastery 30",
+            "level": 40
+          },
+          "advanced job": {
+            "name": "Skill Mastery 40",
+            "level": 50
+          }
+        },
+        "info": {
+          "type": "Supportive Skill",
+          "levels": 5,
+          "cast_time": "2.0 sec",
+          "cooldown": "37.0 sec",
+          "range": "30.0 m",
+          "target": "Party"
+        }
+      },
+      {
+        "id": "21600",
+        "name": "Backspin Slash",
+        "maxLevel": 10
+      },
+      {
+        "id": "23000",
+        "name": "Punish",
+        "maxLevel": 10
+      },
+      {
+        "id": "23600",
+        "name": "Shout",
+        "maxLevel": 10
+      },
+      {
+        "id": "24400",
+        "name": "Warlord Grip",
+        "maxLevel": 10
+      },
+      {
+        "id": "22900",
+        "name": "Terror",
+        "maxLevel": 10
+      },
+      {
+        "id": "22000",
+        "name": "Ground Shock",
+        "maxLevel": 10
+      },
+      {
+        "id": "24200",
+        "name": "Defense Moderato",
+        "maxLevel": 10
+      },
+      {
+        "id": "24600",
+        "name": "Blood Nail Time",
+        "maxLevel": 10
+      },
+      {
+        "id": "24100",
+        "name": "Coercion Cry",
+        "maxLevel": 10
+      }
+    ],
+    "16": [
+      {
+        "id": "1400",
+        "name": "Return",
+        "maxLevel": 10
+      },
+      {
+        "id": "25100",
+        "name": "Fire Ball",
+        "maxLevel": 10,
+        "lvlReq": [
+          10,
+          15,
+          20,
+          25,
+          30
+        ],
+        "requires": {
+          "skill downtime": {
+            "name": "0.6 sec"
+          },
+          "first job": {
+            "name": "Skill Mastery 0",
+            "level": 10
+          }
+        },
+        "info": {
+          "type": "Offensive Skill",
+          "levels": 5,
+          "cast_time": "Instant Cast",
+          "cooldown": "0.6 sec",
+          "range": "30.0 m",
+          "target": "Enemy"
+        },
+        "progression": {
+          "1": [],
+          "2": [],
+          "3": [],
+          "4": [],
+          "5": [],
+          "prerequisite level": [],
+          "skill level requirement": [],
+          "mp consumption": [],
+          "fire property damage": [],
+          "fire property damage with dna": []
+        }
+      },
+      {
+        "id": "26400",
+        "name": "Others Prescription",
+        "maxLevel": 10
+      },
+      {
+        "id": "26000",
+        "name": "Last Ditch",
+        "maxLevel": 10
+      },
+      {
+        "id": "26900",
+        "name": "Flame Thrower",
+        "maxLevel": 10,
+        "lvlReq": [
+          24,
+          29,
+          34,
+          39,
+          44
+        ],
+        "requires": {
+          "skill downtime": {
+            "name": "9.2 sec"
+          },
+          "first job": {
+            "name": "Skill Mastery 14",
+            "level": 24
+          }
+        },
+        "info": {
+          "type": "Offensive Skill",
+          "levels": 5,
+          "cast_time": "1.5 sec",
+          "cooldown": "9.2 sec",
+          "range": "4.0 m",
+          "target": "Enemy"
+        },
+        "progression": {
+          "1": [],
+          "2": [],
+          "3": [],
+          "4": [],
+          "5": [],
+          "prerequisite level": [],
+          "skill level requirement": [],
+          "mp consumption": [],
+          "fire damage": [],
+          "fire damage with dna": [],
+          "casting time with dna": []
+        }
+      },
+      {
+        "id": "26300",
+        "name": "Charm Of Mana",
+        "maxLevel": 10
+      },
+      {
+        "id": "25600",
+        "name": "Flame Arrow",
+        "maxLevel": 10,
+        "lvlReq": [
+          14,
+          19,
+          24,
+          29,
+          34
+        ],
+        "requires": {
+          "skill downtime": {
+            "name": "8.4 sec"
+          },
+          "first job": {
+            "name": "Skill Mastery 4",
+            "level": 14
+          }
+        },
+        "info": {
+          "type": "Offensive Skill",
+          "levels": 5,
+          "cast_time": "Instant Cast",
+          "cooldown": "8.4 sec",
+          "range": "20.0 m",
+          "target": "Enemy"
+        },
+        "progression": {
+          "1": [],
+          "2": [],
+          "3": [],
+          "4": [],
+          "5": [],
+          "prerequisite level": [],
+          "skill level requirement": [],
+          "mp consumption": [],
+          "fire damage": [],
+          "fire damage with dna": [],
+          "continuous burning damage": [],
+          "burning duration": [],
+          "burning effect range": []
+        }
+      },
+      {
+        "id": "25300",
+        "name": "Recover",
+        "maxLevel": 10
+      },
+      {
+        "id": "28000",
+        "name": "Flame Wave",
+        "maxLevel": 10,
+        "lvlReq": [
+          20,
+          25,
+          30,
+          35,
+          40
+        ],
+        "requires": {
+          "skill downtime": {
+            "name": "8.8 sec"
+          },
+          "first job": {
+            "name": "Skill Mastery 10",
+            "level": 20
+          }
+        },
+        "info": {
+          "type": "Offensive Skill",
+          "levels": 5,
+          "cast_time": "1.5 sec",
+          "cooldown": "8.8 sec",
+          "range": "20.0 m",
+          "target": "Enemy"
+        },
+        "progression": {
+          "1": [],
+          "2": [],
+          "3": [],
+          "4": [],
+          "5": [],
+          "prerequisite level": [],
+          "skill level requirement": [],
+          "mp consumption": [],
+          "fire piercing damage": []
+        }
+      },
+      {
+        "id": "25700",
+        "name": "Dutch Courage",
+        "maxLevel": 10
+      },
+      {
+        "id": "28300",
+        "name": "Burning Hell",
+        "maxLevel": 10,
+        "lvlReq": [
+          36,
+          41,
+          46,
+          51,
+          57,
+          61,
+          66
+        ],
+        "requires": {
+          "skill downtime": {
+            "name": "17.5 sec"
+          },
+          "first job": {
+            "name": "Skill Mastery 26",
+            "level": 36
+          },
+          "advanced job": {
+            "name": "Skill Mastery 41",
+            "level": 51
+          }
+        },
+        "info": {
+          "type": "Offensive Skill",
+          "levels": 7,
+          "cast_time": "1.5 sec",
+          "cooldown": "17.5 sec",
+          "range": "20.0 m",
+          "target": "Enemy"
+        }
+      },
+      {
+        "id": "26800",
+        "name": "Fire Guard",
+        "maxLevel": 10,
+        "lvlReq": [
+          22,
+          27,
+          32,
+          37,
+          42
+        ],
+        "requires": {
+          "skill downtime": {
+            "name": "23.0 sec"
+          },
+          "first job": {
+            "name": "Skill Mastery 12",
+            "level": 22
+          }
+        },
+        "info": {
+          "type": "Supportive Skill",
+          "levels": 5,
+          "cast_time": "2.0 sec",
+          "cooldown": "23.0 sec",
+          "range": "20.0 m",
+          "target": "Player"
+        },
+        "progression": {
+          "1": [],
+          "2": [],
+          "3": [],
+          "4": [],
+          "5": [],
+          "prerequisite level": [],
+          "skill level requirement": [],
+          "mp consumption": [],
+          "target's short rangephysical defense": [],
+          "duration": []
+        }
+      },
+      {
+        "id": "27600",
+        "name": "Fire Fairy's Protection",
+        "maxLevel": 10,
+        "lvlReq": [
+          46,
+          51,
+          57,
+          61,
+          66
+        ],
+        "requires": {
+          "skill downtime": {
+            "name": "12.5 sec"
+          },
+          "first job": {
+            "name": "Skill Mastery 36",
+            "level": 46
+          },
+          "advanced job": {
+            "name": "Skill Mastery 41",
+            "level": 51
+          }
+        },
+        "info": {
+          "type": "Supportive Skill",
+          "levels": 5,
+          "cast_time": "1.5 sec",
+          "cooldown": "12.5 sec",
+          "target": "Self"
+        }
+      }
+    ],
+    "17": [
+      {
+        "id": "1400",
+        "name": "Return",
+        "maxLevel": 10
+      },
+      {
+        "id": "25100",
+        "name": "Fire Ball",
+        "maxLevel": 10,
+        "lvlReq": [
+          10,
+          15,
+          20,
+          25,
+          30
+        ],
+        "requires": {
+          "skill downtime": {
+            "name": "0.6 sec"
+          },
+          "first job": {
+            "name": "Skill Mastery 0",
+            "level": 10
+          }
+        },
+        "info": {
+          "type": "Offensive Skill",
+          "levels": 5,
+          "cast_time": "Instant Cast",
+          "cooldown": "0.6 sec",
+          "range": "30.0 m",
+          "target": "Enemy"
+        },
+        "progression": {
+          "1": [],
+          "2": [],
+          "3": [],
+          "4": [],
+          "5": [],
+          "prerequisite level": [],
+          "skill level requirement": [],
+          "mp consumption": [],
+          "fire property damage": [],
+          "fire property damage with dna": []
+        }
+      },
+      {
+        "id": "26400",
+        "name": "Others Prescription",
+        "maxLevel": 10
+      },
+      {
+        "id": "26000",
+        "name": "Last Ditch",
+        "maxLevel": 10
+      },
+      {
+        "id": "26900",
+        "name": "Flame Thrower",
+        "maxLevel": 10,
+        "lvlReq": [
+          24,
+          29,
+          34,
+          39,
+          44
+        ],
+        "requires": {
+          "skill downtime": {
+            "name": "9.2 sec"
+          },
+          "first job": {
+            "name": "Skill Mastery 14",
+            "level": 24
+          }
+        },
+        "info": {
+          "type": "Offensive Skill",
+          "levels": 5,
+          "cast_time": "1.5 sec",
+          "cooldown": "9.2 sec",
+          "range": "4.0 m",
+          "target": "Enemy"
+        },
+        "progression": {
+          "1": [],
+          "2": [],
+          "3": [],
+          "4": [],
+          "5": [],
+          "prerequisite level": [],
+          "skill level requirement": [],
+          "mp consumption": [],
+          "fire damage": [],
+          "fire damage with dna": [],
+          "casting time with dna": []
+        }
+      },
+      {
+        "id": "26300",
+        "name": "Charm Of Mana",
+        "maxLevel": 10
+      },
+      {
+        "id": "25600",
+        "name": "Flame Slash",
+        "maxLevel": 10,
+        "lvlReq": [
+          30,
+          35,
+          40,
+          45,
+          50,
+          55,
+          60,
+          65,
+          70
+        ],
+        "requires": {
+          "skill downtime": {
+            "name": "40.0 sec"
+          },
+          "first job": {
+            "name": "Skill Mastery 20",
+            "level": 30
+          },
+          "advanced job": {
+            "name": "Skill Mastery 40",
+            "level": 50
+          }
+        },
+        "info": {
+          "type": "Offensive Skill",
+          "levels": 5,
+          "cast_time": "Instant Cast",
+          "cooldown": "40.0 sec",
+          "weapons": [
+            "Staff",
+            "Wand"
+          ],
+          "range": "4.0m",
+          "target": "Enemy"
+        }
+      },
+      {
+        "id": "25300",
+        "name": "Recover",
+        "maxLevel": 10
+      },
+      {
+        "id": "28000",
+        "name": "Flame Slash",
+        "maxLevel": 10,
+        "lvlReq": [
+          30,
+          35,
+          40,
+          45,
+          50,
+          55,
+          60,
+          65,
+          70
+        ],
+        "requires": {
+          "skill downtime": {
+            "name": "40.0 sec"
+          },
+          "first job": {
+            "name": "Skill Mastery 20",
+            "level": 30
+          },
+          "advanced job": {
+            "name": "Skill Mastery 40",
+            "level": 50
+          }
+        },
+        "info": {
+          "type": "Offensive Skill",
+          "levels": 5,
+          "cast_time": "Instant Cast",
+          "cooldown": "40.0 sec",
+          "weapons": [
+            "Staff",
+            "Wand"
+          ],
+          "range": "4.0m",
+          "target": "Enemy"
+        }
+      },
+      {
+        "id": "25700",
+        "name": "Dutch Courage",
+        "maxLevel": 10
+      },
+      {
+        "id": "28300",
+        "name": "Burning Hell",
+        "maxLevel": 10,
+        "lvlReq": [
+          36,
+          41,
+          46,
+          51,
+          57,
+          61,
+          66
+        ],
+        "requires": {
+          "skill downtime": {
+            "name": "17.5 sec"
+          },
+          "first job": {
+            "name": "Skill Mastery 26",
+            "level": 36
+          },
+          "advanced job": {
+            "name": "Skill Mastery 41",
+            "level": 51
+          }
+        },
+        "info": {
+          "type": "Offensive Skill",
+          "levels": 7,
+          "cast_time": "1.5 sec",
+          "cooldown": "17.5 sec",
+          "range": "20.0 m",
+          "target": "Enemy"
+        }
+      },
+      {
+        "id": "26800",
+        "name": "Others Fire Guard",
+        "maxLevel": 10
+      },
+      {
+        "id": "27600",
+        "name": "Fire Nymph Protect",
+        "maxLevel": 10
+      },
+      {
+        "id": "26600",
+        "name": "Fire Mastery",
+        "maxLevel": 10,
+        "lvlReq": [
+          50,
+          55,
+          60,
+          65,
+          70
+        ],
+        "requires": {
+          "advanced job": {
+            "name": "Skill Mastery 40",
+            "level": 50
+          }
+        },
+        "info": {
+          "type": "Passive Skill",
+          "levels": 5
+        },
+        "progression": {
+          "1": [],
+          "2": [],
+          "3": [],
+          "4": [],
+          "5": [],
+          "fire skill value": [],
+          "prerequisite level": [],
+          "skill level requirement": []
+        }
+      },
+      {
+        "id": "27800",
+        "name": "Plague Charm",
+        "maxLevel": 10
+      },
+      {
+        "id": "28500",
+        "name": "Air Supply",
+        "maxLevel": 10
+      },
+      {
+        "id": "27400",
+        "name": "Loa Summon",
+        "maxLevel": 10
+      },
+      {
+        "id": "26100",
+        "name": "Magic Weapon Master",
+        "maxLevel": 10
+      },
+      {
+        "id": "25800",
+        "name": "Flame Slash",
+        "maxLevel": 10,
+        "lvlReq": [
+          30,
+          35,
+          40,
+          45,
+          50,
+          55,
+          60,
+          65,
+          70
+        ],
+        "requires": {
+          "skill downtime": {
+            "name": "40.0 sec"
+          },
+          "first job": {
+            "name": "Skill Mastery 20",
+            "level": 30
+          },
+          "advanced job": {
+            "name": "Skill Mastery 40",
+            "level": 50
+          }
+        },
+        "info": {
+          "type": "Offensive Skill",
+          "levels": 5,
+          "cast_time": "Instant Cast",
+          "cooldown": "40.0 sec",
+          "weapons": [
+            "Staff",
+            "Wand"
+          ],
+          "range": "4.0m",
+          "target": "Enemy"
+        }
+      },
+      {
+        "id": "28100",
+        "name": "Pandora Totem",
+        "maxLevel": 10
+      },
+      {
+        "id": "27300",
+        "name": "Fire Mastery",
+        "maxLevel": 10,
+        "lvlReq": [
+          50,
+          55,
+          60,
+          65,
+          70
+        ],
+        "requires": {
+          "advanced job": {
+            "name": "Skill Mastery 40",
+            "level": 50
+          }
+        },
+        "info": {
+          "type": "Passive Skill",
+          "levels": 5
+        },
+        "progression": {
+          "1": [],
+          "2": [],
+          "3": [],
+          "4": [],
+          "5": [],
+          "fire skill value": [],
+          "prerequisite level": [],
+          "skill level requirement": []
+        }
+      },
+      {
+        "id": "29300",
+        "name": "Flame Slash",
+        "maxLevel": 10,
+        "lvlReq": [
+          30,
+          35,
+          40,
+          45,
+          50,
+          55,
+          60,
+          65,
+          70
+        ],
+        "requires": {
+          "skill downtime": {
+            "name": "40.0 sec"
+          },
+          "first job": {
+            "name": "Skill Mastery 20",
+            "level": 30
+          },
+          "advanced job": {
+            "name": "Skill Mastery 40",
+            "level": 50
+          }
+        },
+        "info": {
+          "type": "Offensive Skill",
+          "levels": 5,
+          "cast_time": "Instant Cast",
+          "cooldown": "40.0 sec",
+          "weapons": [
+            "Staff",
+            "Wand"
+          ],
+          "range": "4.0m",
+          "target": "Enemy"
+        }
+      },
+      {
+        "id": "29000",
+        "name": "Mana Burn",
+        "maxLevel": 10
+      }
+    ],
+    "18": [
+      {
+        "id": "1400",
+        "name": "Return",
+        "maxLevel": 10
+      },
+      {
+        "id": "25100",
+        "name": "Fire Ball",
+        "maxLevel": 10,
+        "lvlReq": [
+          10,
+          15,
+          20,
+          25,
+          30
+        ],
+        "requires": {
+          "skill downtime": {
+            "name": "0.6 sec"
+          },
+          "first job": {
+            "name": "Skill Mastery 0",
+            "level": 10
+          }
+        },
+        "info": {
+          "type": "Offensive Skill",
+          "levels": 5,
+          "cast_time": "Instant Cast",
+          "cooldown": "0.6 sec",
+          "range": "30.0 m",
+          "target": "Enemy"
+        },
+        "progression": {
+          "1": [],
+          "2": [],
+          "3": [],
+          "4": [],
+          "5": [],
+          "prerequisite level": [],
+          "skill level requirement": [],
+          "mp consumption": [],
+          "fire property damage": [],
+          "fire property damage with dna": []
+        }
+      },
+      {
+        "id": "26400",
+        "name": "Others Prescription",
+        "maxLevel": 10
+      },
+      {
+        "id": "26000",
+        "name": "Last Ditch",
+        "maxLevel": 10
+      },
+      {
+        "id": "26900",
+        "name": "Flame Thrower",
+        "maxLevel": 10,
+        "lvlReq": [
+          24,
+          29,
+          34,
+          39,
+          44
+        ],
+        "requires": {
+          "skill downtime": {
+            "name": "9.2 sec"
+          },
+          "first job": {
+            "name": "Skill Mastery 14",
+            "level": 24
+          }
+        },
+        "info": {
+          "type": "Offensive Skill",
+          "levels": 5,
+          "cast_time": "1.5 sec",
+          "cooldown": "9.2 sec",
+          "range": "4.0 m",
+          "target": "Enemy"
+        },
+        "progression": {
+          "1": [],
+          "2": [],
+          "3": [],
+          "4": [],
+          "5": [],
+          "prerequisite level": [],
+          "skill level requirement": [],
+          "mp consumption": [],
+          "fire damage": [],
+          "fire damage with dna": [],
+          "casting time with dna": []
+        }
+      },
+      {
+        "id": "26300",
+        "name": "Charm Of Mana",
+        "maxLevel": 10
+      },
+      {
+        "id": "25600",
+        "name": "Flame Arrow",
+        "maxLevel": 10,
+        "lvlReq": [
+          14,
+          19,
+          24,
+          29,
+          34
+        ],
+        "requires": {
+          "skill downtime": {
+            "name": "8.4 sec"
+          },
+          "first job": {
+            "name": "Skill Mastery 4",
+            "level": 14
+          }
+        },
+        "info": {
+          "type": "Offensive Skill",
+          "levels": 5,
+          "cast_time": "Instant Cast",
+          "cooldown": "8.4 sec",
+          "range": "20.0 m",
+          "target": "Enemy"
+        },
+        "progression": {
+          "1": [],
+          "2": [],
+          "3": [],
+          "4": [],
+          "5": [],
+          "prerequisite level": [],
+          "skill level requirement": [],
+          "mp consumption": [],
+          "fire damage": [],
+          "fire damage with dna": [],
+          "continuous burning damage": [],
+          "burning duration": [],
+          "burning effect range": []
+        }
+      },
+      {
+        "id": "25300",
+        "name": "Recover",
+        "maxLevel": 10
+      },
+      {
+        "id": "28000",
+        "name": "Flame Nova",
+        "maxLevel": 10
+      },
+      {
+        "id": "25700",
+        "name": "Dutch Courage",
+        "maxLevel": 10
+      },
+      {
+        "id": "28300",
+        "name": "Burning Hell",
+        "maxLevel": 10,
+        "lvlReq": [
+          36,
+          41,
+          46,
+          51,
+          57,
+          61,
+          66
+        ],
+        "requires": {
+          "skill downtime": {
+            "name": "17.5 sec"
+          },
+          "first job": {
+            "name": "Skill Mastery 26",
+            "level": 36
+          },
+          "advanced job": {
+            "name": "Skill Mastery 41",
+            "level": 51
+          }
+        },
+        "info": {
+          "type": "Offensive Skill",
+          "levels": 7,
+          "cast_time": "1.5 sec",
+          "cooldown": "17.5 sec",
+          "range": "20.0 m",
+          "target": "Enemy"
+        }
+      },
+      {
+        "id": "26800",
+        "name": "Others Fire Guard",
+        "maxLevel": 10
+      },
+      {
+        "id": "27600",
+        "name": "Fire Fairy's Protection",
+        "maxLevel": 10,
+        "lvlReq": [
+          46,
+          51,
+          57,
+          61,
+          66
+        ],
+        "requires": {
+          "skill downtime": {
+            "name": "12.5 sec"
+          },
+          "first job": {
+            "name": "Skill Mastery 36",
+            "level": 46
+          },
+          "advanced job": {
+            "name": "Skill Mastery 41",
+            "level": 51
+          }
+        },
+        "info": {
+          "type": "Supportive Skill",
+          "levels": 5,
+          "cast_time": "1.5 sec",
+          "cooldown": "12.5 sec",
+          "target": "Self"
+        }
+      },
+      {
+        "id": "28700",
+        "name": "Flame Stone",
+        "maxLevel": 10
+      },
+      {
+        "id": "25500",
+        "name": "Fire Rain",
+        "maxLevel": 10,
+        "requires": {
+          "skill downtime": {
+            "name": "10.5 sec"
+          },
+          "first job": {
+            "name": "Skill Mastery 2",
+            "level": 12
+          }
+        },
+        "info": {
+          "type": "Offensive Skill",
+          "levels": 5,
+          "cast_time": "1.5 sec",
+          "cooldown": "10.5 sec",
+          "range": "20.0 m",
+          "target": "Ground"
+        },
+        "progression": {
+          "1": [],
+          "2": [],
+          "3": [],
+          "4": [],
+          "5": [],
+          "prerequisote level": [],
+          "skill level requirement": [],
+          "mp consumption": [],
+          "total damage for 10 sec": [],
+          "effective range (radius)": [],
+          "casting time with dna": []
+        }
+      },
+      {
+        "id": "27000",
+        "name": "Chaos Totem",
+        "maxLevel": 10,
+        "lvlReq": [
+          34,
+          39,
+          44,
+          49,
+          54,
+          59
+        ],
+        "requires": {
+          "skill downtime": {
+            "name": "25.0 sec"
+          },
+          "first job": {
+            "name": "Skill Mastery 24",
+            "level": 34
+          },
+          "advanced job": {
+            "name": "Skill Mastery 44",
+            "level": 54
+          }
+        },
+        "info": {
+          "type": "Offensive Skill",
+          "levels": 6,
+          "cast_time": "1.0 sec",
+          "cooldown": "25.0 sec",
+          "range": "15.0 m",
+          "target": "Ground"
+        }
+      },
+      {
+        "id": "28900",
+        "name": "Cure Nymph Summon",
+        "maxLevel": 10
+      },
+      {
+        "id": "28600",
+        "name": "Bloodlust",
+        "maxLevel": 10,
+        "lvlReq": [
+          50,
+          55,
+          60,
+          65,
+          70
+        ],
+        "requires": {
+          "skill downtime": {
+            "name": "10.0 Sec"
+          },
+          "advanced job": {
+            "name": "Skill Mastery 40",
+            "level": 50
+          }
+        },
+        "info": {
+          "type": "Supportive Skill",
+          "levels": 5,
+          "cast_time": "3.0 Sec",
+          "cooldown": "10.0 Sec",
+          "range": "30.0m",
+          "target": "Party / Self"
+        },
+        "progression": {
+          "prerequisite level": [],
+          "skill level requirement": [],
+          "mp consumption": [],
+          "nearby party member's attack strength": [],
+          "fire property attack": [],
+          "duration": []
+        }
+      },
+      {
+        "id": "29200",
+        "name": "2nd Revival",
+        "maxLevel": 10
+      },
+      {
+        "id": "27200",
+        "name": "Hellfire",
+        "maxLevel": 10,
+        "lvlReq": [
+          48,
+          53,
+          58,
+          63,
+          68
+        ],
+        "requires": {
+          "skill downtime": {
+            "name": "22.5 sec"
+          },
+          "first job": {
+            "name": "Skill Mastery 38",
+            "level": 48
+          },
+          "advanced job": {
+            "name": "Skill Mastery 43",
+            "level": 53
+          }
+        },
+        "info": {
+          "type": "Offensive Skill",
+          "levels": 5,
+          "cast_time": "2.0 sec",
+          "cooldown": "22.5 sec",
+          "range": "20.0 m",
+          "target": "Ground"
+        }
+      },
+      {
+        "id": "27500",
+        "name": "Chaos Totem",
+        "maxLevel": 10,
+        "lvlReq": [
+          34,
+          39,
+          44,
+          49,
+          54,
+          59
+        ],
+        "requires": {
+          "skill downtime": {
+            "name": "25.0 sec"
+          },
+          "first job": {
+            "name": "Skill Mastery 24",
+            "level": 34
+          },
+          "advanced job": {
+            "name": "Skill Mastery 44",
+            "level": 54
+          }
+        },
+        "info": {
+          "type": "Offensive Skill",
+          "levels": 6,
+          "cast_time": "1.0 sec",
+          "cooldown": "25.0 sec",
+          "range": "15.0 m",
+          "target": "Ground"
+        }
+      },
+      {
+        "id": "29100",
+        "name": "Burning Meteor",
+        "maxLevel": 10,
+        "lvlReq": [
+          52,
+          57,
+          62,
+          67,
+          72
+        ],
+        "requires": {
+          "skill downtime": {
+            "name": "23.1 Sec"
+          },
+          "first job": {
+            "name": "Skill Mastery",
+            "level": 52
+          },
+          "advanced job": {
+            "name": "Skill Mastery 42",
+            "level": 52
+          }
+        },
+        "info": {
+          "type": "Offensive Skill",
+          "levels": 5,
+          "cast_time": "2.0 Sec",
+          "cooldown": "23.1 Sec",
+          "range": "15.0m",
+          "target": "Enemy"
+        },
+        "progression": {
+          "1": [],
+          "2": [],
+          "3": [],
+          "4": [],
+          "5": [],
+          "prerequisite level": [],
+          "skill level requirement": [],
+          "mp consumption": [],
+          "piercing damage": [],
+          "stun duration": [],
+          "range": []
+        }
+      }
+    ],
+    "32": [
+      {
+        "id": "1500",
+        "name": "Return",
+        "maxLevel": 10
+      },
+      {
+        "id": "40100",
+        "name": "Black Slash",
+        "maxLevel": 10
+      },
+      {
+        "id": "40200",
+        "name": "Concentration (Rogue)",
+        "maxLevel": 10,
+        "requires": {
+          "skill downtime": {
+            "name": "18.9 sec"
+          },
+          "first job": {
+            "name": "Skill Mastery 10",
+            "level": 20
+          }
+        },
+        "info": {
+          "type": "Supportive Skill",
+          "levels": 5,
+          "cast_time": "Instant Cast",
+          "cooldown": "18.9 sec",
+          "target": "Self"
+        },
+        "progression": {
+          "1": [],
+          "2": [],
+          "3": [],
+          "4": [],
+          "5": [],
+          "mp recovery": [],
+          "duration": [],
+          "mp consumption": []
+        }
+      },
+      {
+        "id": "40500",
+        "name": "Speed Weapon",
+        "maxLevel": 10
+      },
+      {
+        "id": "40400",
+        "name": "Stealth",
+        "maxLevel": 10
+      },
+      {
+        "id": "41500",
+        "name": "Forward Dash",
+        "maxLevel": 10,
+        "requires": {
+          "skill downtime": {
+            "name": "20.8 sec"
+          },
+          "first job": {
+            "name": "Skill Mastery 8",
+            "level": 18
+          }
+        },
+        "info": {
+          "type": "Active Skill",
+          "levels": 5,
+          "cast_time": "Instant Cast",
+          "cooldown": "20.8 sec",
+          "range": "Variable"
+        },
+        "progression": {
+          "1": [],
+          "2": [],
+          "3": [],
+          "4": [],
+          "5": [],
+          "quickly advance(range)": [],
+          "mp consumption": []
+        }
+      },
+      {
+        "id": "43000",
+        "name": "Raid",
+        "maxLevel": 10
+      },
+      {
+        "id": "41800",
+        "name": "Deadly Strike",
+        "maxLevel": 10,
+        "requires": {
+          "skill downtime": {
+            "name": "Variable"
+          },
+          "first job": {
+            "name": "Skill Mastery 24",
+            "level": 34
+          },
+          "advanced job": {
+            "name": "Skill Mastery 48",
+            "level": 58
+          }
+        },
+        "info": {
+          "type": "Offensive Skill",
+          "levels": 10,
+          "cast_time": "Instant Cast",
+          "cooldown": "Variable",
+          "weapons": [
+            "Dual Sword",
+            "Claw"
+          ],
+          "range": "Melee",
+          "target": "Enemy"
+        }
+      },
+      {
+        "id": "41200",
+        "name": "Shadow Runner",
+        "maxLevel": 10
+      },
+      {
+        "id": "40300",
+        "name": "Stinger",
+        "maxLevel": 10
+      },
+      {
+        "id": "40900",
+        "name": "Stealth",
+        "maxLevel": 10
+      },
+      {
+        "id": "43500",
+        "name": "Doppleganger Magic",
+        "maxLevel": 10,
+        "requires": {
+          "skill downtime": {
+            "name": "12.0 sec"
+          },
+          "first job": {
+            "name": "Skill Mastery 38",
+            "level": 48
+          },
+          "advanced job": {
+            "name": "Skill Mastery 58",
+            "level": 68
+          }
+        },
+        "info": {
+          "type": "Active Skill",
+          "levels": 10,
+          "cast_time": "5.0 sec",
+          "cooldown": "12.0 sec"
+        }
+      },
+      {
+        "id": "42000",
+        "name": "Heart Breakdown",
+        "maxLevel": 10
+      },
+      {
+        "id": "43100",
+        "name": "Critical Power",
+        "maxLevel": 10
+      },
+      {
+        "id": "41900",
+        "name": "Low Kick",
+        "maxLevel": 10
+      },
+      {
+        "id": "42800",
+        "name": "Ambush",
+        "maxLevel": 10,
+        "requires": {
+          "skill downtime": {
+            "name": "15.0 sec"
+          },
+          "first job": {
+            "name": "Skill Mastery 20",
+            "level": 30
+          },
+          "advanced job": {
+            "name": "Skill Mastery 45",
+            "level": 55
+          }
+        },
+        "info": {
+          "type": "Offensive Skill",
+          "levels": 10,
+          "cast_time": "Instant Cast",
+          "cooldown": "15.0 sec",
+          "weapons": [
+            "Dual Sword",
+            "Claw"
+          ],
+          "range": "Melee",
+          "target": "Enemy"
+        }
+      },
+      {
+        "id": "42200",
+        "name": "Back Dash",
+        "maxLevel": 10
+      }
+    ],
+    "33": [
+      {
+        "id": "1500",
+        "name": "Return",
+        "maxLevel": 10
+      },
+      {
+        "id": "40100",
+        "name": "Black Slash",
+        "maxLevel": 10
+      },
+      {
+        "id": "40200",
+        "name": "Concentrate",
+        "maxLevel": 10
+      },
+      {
+        "id": "40500",
+        "name": "Speed Weapon",
+        "maxLevel": 10
+      },
+      {
+        "id": "40400",
+        "name": "Stealth",
+        "maxLevel": 10
+      },
+      {
+        "id": "41500",
+        "name": "Front Dash",
+        "maxLevel": 10
+      },
+      {
+        "id": "43000",
+        "name": "Raid",
+        "maxLevel": 10
+      },
+      {
+        "id": "41800",
+        "name": "Deadly Strike",
+        "maxLevel": 10,
+        "requires": {
+          "skill downtime": {
+            "name": "Variable"
+          },
+          "first job": {
+            "name": "Skill Mastery 24",
+            "level": 34
+          },
+          "advanced job": {
+            "name": "Skill Mastery 48",
+            "level": 58
+          }
+        },
+        "info": {
+          "type": "Offensive Skill",
+          "levels": 10,
+          "cast_time": "Instant Cast",
+          "cooldown": "Variable",
+          "weapons": [
+            "Dual Sword",
+            "Claw"
+          ],
+          "range": "Melee",
+          "target": "Enemy"
+        }
+      },
+      {
+        "id": "40300",
+        "name": "Stinger",
+        "maxLevel": 10
+      },
+      {
+        "id": "40900",
+        "name": "Stealth",
+        "maxLevel": 10
+      },
+      {
+        "id": "43500",
+        "name": "Doppleganger Magic",
+        "maxLevel": 10,
+        "requires": {
+          "skill downtime": {
+            "name": "12.0 sec"
+          },
+          "first job": {
+            "name": "Skill Mastery 38",
+            "level": 48
+          },
+          "advanced job": {
+            "name": "Skill Mastery 58",
+            "level": 68
+          }
+        },
+        "info": {
+          "type": "Active Skill",
+          "levels": 10,
+          "cast_time": "5.0 sec",
+          "cooldown": "12.0 sec"
+        }
+      },
+      {
+        "id": "42000",
+        "name": "Heart Breakdown",
+        "maxLevel": 10
+      },
+      {
+        "id": "43100",
+        "name": "Critical Power",
+        "maxLevel": 10
+      },
+      {
+        "id": "41900",
+        "name": "Low Kick",
+        "maxLevel": 10
+      },
+      {
+        "id": "42800",
+        "name": "Ambush",
+        "maxLevel": 10,
+        "requires": {
+          "skill downtime": {
+            "name": "15.0 sec"
+          },
+          "first job": {
+            "name": "Skill Mastery 20",
+            "level": 30
+          },
+          "advanced job": {
+            "name": "Skill Mastery 45",
+            "level": 55
+          }
+        },
+        "info": {
+          "type": "Offensive Skill",
+          "levels": 10,
+          "cast_time": "Instant Cast",
+          "cooldown": "15.0 sec",
+          "weapons": [
+            "Dual Sword",
+            "Claw"
+          ],
+          "range": "Melee",
+          "target": "Enemy"
+        }
+      },
+      {
+        "id": "42200",
+        "name": "Back Dash",
+        "maxLevel": 10
+      },
+      {
+        "id": "43700",
+        "name": "Great Blow",
+        "maxLevel": 10
+      },
+      {
+        "id": "40600",
+        "name": "Dead Slash",
+        "maxLevel": 10
+      },
+      {
+        "id": "41300",
+        "name": "Hacking",
+        "maxLevel": 10,
+        "requires": {
+          "skill downtime": {
+            "name": "Variable"
+          },
+          "first job": {
+            "name": "Skill Mastery 24",
+            "level": 34
+          },
+          "advanced job": {
+            "name": "Skill Mastery 49",
+            "level": 59
+          }
+        },
+        "info": {
+          "type": "Offensive Skill",
+          "levels": 10,
+          "cast_time": "Instant Cast",
+          "cooldown": "Variable",
+          "weapons": [
+            "Dual Sword",
+            "Claw"
+          ],
+          "range": "Melee",
+          "target": "Enemy"
+        }
+      },
+      {
+        "id": "42400",
+        "name": "Range Weapon Master",
+        "maxLevel": 10
+      },
+      {
+        "id": "43400",
+        "name": "Curse of Darkness",
+        "maxLevel": 10,
+        "requires": {
+          "skill downtime": {
+            "name": "16.0 sec"
+          },
+          "first job": {
+            "name": "Skill Mastery 36",
+            "level": 46
+          },
+          "advanced job": {
+            "name": "Skill Mastery 56",
+            "level": 66
+          }
+        },
+        "info": {
+          "type": "Offensive Skill",
+          "levels": 10,
+          "cast_time": "1.5 sec",
+          "cooldown": "16.0 sec",
+          "range": "10.0 m",
+          "target": "Enemy"
+        }
+      },
+      {
+        "id": "40800",
+        "name": "Neurotomy",
+        "maxLevel": 10
+      },
+      {
+        "id": "42900",
+        "name": "ArmourCrash Combo",
+        "maxLevel": 10
+      },
+      {
+        "id": "43600",
+        "name": "Sniper",
+        "maxLevel": 10
+      },
+      {
+        "id": "43800",
+        "name": "Sarin Gas",
+        "maxLevel": 10
+      },
+      {
+        "id": "44300",
+        "name": "Confuse Shot",
+        "maxLevel": 10
+      }
+    ],
+    "34": [
+      {
+        "id": "1500",
+        "name": "Return",
+        "maxLevel": 10
+      },
+      {
+        "id": "40100",
+        "name": "Black Slash",
+        "maxLevel": 10
+      },
+      {
+        "id": "40200",
+        "name": "Concentrate",
+        "maxLevel": 10
+      },
+      {
+        "id": "40500",
+        "name": "Speed Weapon",
+        "maxLevel": 10
+      },
+      {
+        "id": "40400",
+        "name": "Stealth",
+        "maxLevel": 10
+      },
+      {
+        "id": "41500",
+        "name": "Front Dash",
+        "maxLevel": 10
+      },
+      {
+        "id": "43000",
+        "name": "Raid",
+        "maxLevel": 10
+      },
+      {
+        "id": "41800",
+        "name": "Leg Strike",
+        "maxLevel": 10
+      },
+      {
+        "id": "41200",
+        "name": "Shadow Runner",
+        "maxLevel": 10
+      },
+      {
+        "id": "40300",
+        "name": "Stinger",
+        "maxLevel": 10
+      },
+      {
+        "id": "40900",
+        "name": "Stealth",
+        "maxLevel": 10
+      },
+      {
+        "id": "43500",
+        "name": "Dopple Ganger",
+        "maxLevel": 10
+      },
+      {
+        "id": "42000",
+        "name": "Heart Breakdown",
+        "maxLevel": 10
+      },
+      {
+        "id": "43100",
+        "name": "Critical Power",
+        "maxLevel": 10
+      },
+      {
+        "id": "41900",
+        "name": "Low Kick",
+        "maxLevel": 10
+      },
+      {
+        "id": "42800",
+        "name": "Ambush",
+        "maxLevel": 10,
+        "requires": {
+          "skill downtime": {
+            "name": "15.0 sec"
+          },
+          "first job": {
+            "name": "Skill Mastery 20",
+            "level": 30
+          },
+          "advanced job": {
+            "name": "Skill Mastery 45",
+            "level": 55
+          }
+        },
+        "info": {
+          "type": "Offensive Skill",
+          "levels": 10,
+          "cast_time": "Instant Cast",
+          "cooldown": "15.0 sec",
+          "weapons": [
+            "Dual Sword",
+            "Claw"
+          ],
+          "range": "Melee",
+          "target": "Enemy"
+        }
+      },
+      {
+        "id": "42200",
+        "name": "Back Dash",
+        "maxLevel": 10
+      },
+      {
+        "id": "42600",
+        "name": "Wide Crash",
+        "maxLevel": 10
+      },
+      {
+        "id": "41600",
+        "name": "Screw Attack",
+        "maxLevel": 10
+      },
+      {
+        "id": "44000",
+        "name": "Cruel Dash",
+        "maxLevel": 10
+      },
+      {
+        "id": "43200",
+        "name": "Blinding Attack",
+        "maxLevel": 10,
+        "requires": {
+          "skill downtime": {
+            "name": "14.5 sec"
+          },
+          "first job": {
+            "name": "Skill Mastery 30",
+            "level": 40
+          },
+          "advanced job": {
+            "name": "Skill Mastery 55",
+            "level": 65
+          }
+        },
+        "info": {
+          "type": "Offensive Skill",
+          "levels": 10,
+          "cast_time": "Instant Cast",
+          "cooldown": "14.5 sec",
+          "weapons": [
+            "Dual Sword",
+            "Claw"
+          ],
+          "range": "Melee",
+          "target": "Enemy"
+        }
+      },
+      {
+        "id": "42300",
+        "name": "Dual Wield Mastery",
+        "maxLevel": 10,
+        "requires": {
+          "first job": {
+            "name": "Skill Mastery 8",
+            "level": 18
+          },
+          "advanced job": {
+            "name": "Skill Mastery ?"
+          }
+        },
+        "info": {
+          "type": "Passive Skill",
+          "levels": 10
+        }
+      },
+      {
+        "id": "43300",
+        "name": "Deadly Bomb",
+        "maxLevel": 10,
+        "requires": {
+          "skill downtime": {
+            "name": "20.0 sec"
+          },
+          "first job": {
+            "name": "Skill Mastery 14",
+            "level": 24
+          }
+        },
+        "info": {
+          "type": "Offensive Skill",
+          "levels": 5,
+          "cast_time": "1.5 sec",
+          "cooldown": "20.0 sec",
+          "range": "20.0 m",
+          "target": "Enemy"
+        },
+        "progression": {
+          "1": [],
+          "2": [],
+          "3": [],
+          "4": [],
+          "5": [],
+          "area effective damage": [],
+          "effective range": [],
+          "duration": [],
+          "mp consumption": []
+        }
+      },
+      {
+        "id": "41000",
+        "name": "Poison",
+        "maxLevel": 10
+      },
+      {
+        "id": "44100",
+        "name": "Mangling",
+        "maxLevel": 10
+      },
+      {
+        "id": "43900",
+        "name": "Disarmament",
+        "maxLevel": 10
+      },
+      {
+        "id": "44200",
+        "name": "Spinning Slash",
+        "maxLevel": 10
+      },
+      {
+        "id": "44400",
+        "name": "Bloodthirsty",
+        "maxLevel": 10
+      }
+    ],
+    "36": [
+      {
+        "id": "1600",
+        "name": "Return",
+        "maxLevel": 10
+      },
+      {
+        "id": "45200",
+        "name": "Bloody Arrow",
+        "maxLevel": 10,
+        "requires": {
+          "skill downtime": {
+            "name": "3.4 sec"
+          },
+          "first job": {
+            "name": "Skill Mastery 0",
+            "level": 10
+          }
+        },
+        "info": {
+          "type": "Offensive Skill",
+          "levels": 5,
+          "cast_time": "Instant Cast",
+          "cooldown": "3.4 sec",
+          "range": "30.0 m",
+          "target": "Enemy"
+        },
+        "progression": {
+          "1": [],
+          "2": [],
+          "3": [],
+          "4": [],
+          "5": [],
+          "curse damage": [],
+          "continuous curse damage": [],
+          "duration": [],
+          "mp consumption": []
+        }
+      },
+      {
+        "id": "45800",
+        "name": "Evade",
+        "maxLevel": 10
+      },
+      {
+        "id": "47600",
+        "name": "Illusion",
+        "maxLevel": 10
+      },
+      {
+        "id": "45400",
+        "name": "Delusion",
+        "maxLevel": 10
+      },
+      {
+        "id": "41200",
+        "name": "Hermes",
+        "maxLevel": 10
+      },
+      {
+        "id": "45600",
+        "name": "Blood Moon",
+        "maxLevel": 10,
+        "requires": {
+          "skill downtime": {
+            "name": "13.5 sec"
+          },
+          "first job": {
+            "name": "Skill Mastery 22",
+            "level": 32
+          },
+          "advanced job": {
+            "name": "Skill Mastery"
+          }
+        },
+        "info": {
+          "type": "Offensive Skill",
+          "levels": 10,
+          "cast_time": "Instant Cast",
+          "cooldown": "13.5 sec",
+          "weapons": [
+            "Staff",
+            "Wand"
+          ],
+          "range": "Melee",
+          "target": "Enemy"
+        }
+      },
+      {
+        "id": "47200",
+        "name": "Vampire Touch",
+        "maxLevel": 10
+      },
+      {
+        "id": "46700",
+        "name": "Fear",
+        "maxLevel": 10
+      },
+      {
+        "id": "47300",
+        "name": "Profanity",
+        "maxLevel": 10
+      },
+      {
+        "id": "46200",
+        "name": "Wind Dodge",
+        "maxLevel": 10
+      },
+      {
+        "id": "46400",
+        "name": "Prison",
+        "maxLevel": 10
+      },
+      {
+        "id": "48200",
+        "name": "Animate Dead",
+        "maxLevel": 10
+      },
+      {
+        "id": "47100",
+        "name": "Curse Smash",
+        "maxLevel": 10
+      },
+      {
+        "id": "47900",
+        "name": "Stone Form",
+        "maxLevel": 10
+      },
+      {
+        "id": "48300",
+        "name": "Animate Skeleton",
+        "maxLevel": 10
+      }
+    ],
+    "37": [
+      {
+        "id": "1600",
+        "name": "Return",
+        "maxLevel": 10
+      },
+      {
+        "id": "45200",
+        "name": "Bloody Arrow",
+        "maxLevel": 10,
+        "requires": {
+          "skill downtime": {
+            "name": "3.4 sec"
+          },
+          "first job": {
+            "name": "Skill Mastery 0",
+            "level": 10
+          }
+        },
+        "info": {
+          "type": "Offensive Skill",
+          "levels": 5,
+          "cast_time": "Instant Cast",
+          "cooldown": "3.4 sec",
+          "range": "30.0 m",
+          "target": "Enemy"
+        },
+        "progression": {
+          "1": [],
+          "2": [],
+          "3": [],
+          "4": [],
+          "5": [],
+          "curse damage": [],
+          "continuous curse damage": [],
+          "duration": [],
+          "mp consumption": []
+        }
+      },
+      {
+        "id": "45800",
+        "name": "Evade",
+        "maxLevel": 10
+      },
+      {
+        "id": "47600",
+        "name": "Illusion",
+        "maxLevel": 10
+      },
+      {
+        "id": "45400",
+        "name": "Delusion",
+        "maxLevel": 10
+      },
+      {
+        "id": "41200",
+        "name": "Hermes",
+        "maxLevel": 10
+      },
+      {
+        "id": "45600",
+        "name": "Blood Moon",
+        "maxLevel": 10,
+        "requires": {
+          "skill downtime": {
+            "name": "13.5 sec"
+          },
+          "first job": {
+            "name": "Skill Mastery 22",
+            "level": 32
+          },
+          "advanced job": {
+            "name": "Skill Mastery"
+          }
+        },
+        "info": {
+          "type": "Offensive Skill",
+          "levels": 10,
+          "cast_time": "Instant Cast",
+          "cooldown": "13.5 sec",
+          "weapons": [
+            "Staff",
+            "Wand"
+          ],
+          "range": "Melee",
+          "target": "Enemy"
+        }
+      },
+      {
+        "id": "47200",
+        "name": "Vampire Touch",
+        "maxLevel": 10
+      },
+      {
+        "id": "46700",
+        "name": "Fear",
+        "maxLevel": 10
+      },
+      {
+        "id": "47300",
+        "name": "Profanity",
+        "maxLevel": 10
+      },
+      {
+        "id": "46200",
+        "name": "Wind Dodge",
+        "maxLevel": 10
+      },
+      {
+        "id": "46400",
+        "name": "Prison",
+        "maxLevel": 10
+      },
+      {
+        "id": "48200",
+        "name": "Animate Dead",
+        "maxLevel": 10
+      },
+      {
+        "id": "47100",
+        "name": "Curse Smash",
+        "maxLevel": 10
+      },
+      {
+        "id": "47900",
+        "name": "Stone Form",
+        "maxLevel": 10
+      },
+      {
+        "id": "48300",
+        "name": "Animate Skeleton",
+        "maxLevel": 10
+      },
+      {
+        "id": "49300",
+        "name": "Poison Master",
+        "maxLevel": 10
+      },
+      {
+        "id": "47400",
+        "name": "Blood Moon",
+        "maxLevel": 10,
+        "requires": {
+          "skill downtime": {
+            "name": "13.5 sec"
+          },
+          "first job": {
+            "name": "Skill Mastery 22",
+            "level": 32
+          },
+          "advanced job": {
+            "name": "Skill Mastery"
+          }
+        },
+        "info": {
+          "type": "Offensive Skill",
+          "levels": 10,
+          "cast_time": "Instant Cast",
+          "cooldown": "13.5 sec",
+          "weapons": [
+            "Staff",
+            "Wand"
+          ],
+          "range": "Melee",
+          "target": "Enemy"
+        }
+      },
+      {
+        "id": "46500",
+        "name": "Blood Storm",
+        "maxLevel": 10,
+        "requires": {
+          "skill downtime": {
+            "name": "24.3 sec"
+          },
+          "first job": {
+            "name": "Skill Mastery 24",
+            "level": 34
+          },
+          "advanced job": {
+            "name": "Skill Mastery"
+          }
+        },
+        "info": {
+          "type": "Offensive Skill",
+          "levels": 10,
+          "cast_time": "2.0 sec",
+          "cooldown": "24.3 sec",
+          "range": "20.0 m",
+          "target": "Area/Ground"
+        }
+      },
+      {
+        "id": "46000",
+        "name": "Blood Storm",
+        "maxLevel": 10,
+        "requires": {
+          "skill downtime": {
+            "name": "24.3 sec"
+          },
+          "first job": {
+            "name": "Skill Mastery 24",
+            "level": 34
+          },
+          "advanced job": {
+            "name": "Skill Mastery"
+          }
+        },
+        "info": {
+          "type": "Offensive Skill",
+          "levels": 10,
+          "cast_time": "2.0 sec",
+          "cooldown": "24.3 sec",
+          "range": "20.0 m",
+          "target": "Area/Ground"
+        }
+      },
+      {
+        "id": "46800",
+        "name": "Time Bomb",
+        "maxLevel": 10
+      },
+      {
+        "id": "48900",
+        "name": "Anti Recovery",
+        "maxLevel": 10
+      },
+      {
+        "id": "48100",
+        "name": "Wide Confuse",
+        "maxLevel": 10
+      },
+      {
+        "id": "48000",
+        "name": "Blood Storm",
+        "maxLevel": 10,
+        "requires": {
+          "skill downtime": {
+            "name": "24.3 sec"
+          },
+          "first job": {
+            "name": "Skill Mastery 24",
+            "level": 34
+          },
+          "advanced job": {
+            "name": "Skill Mastery"
+          }
+        },
+        "info": {
+          "type": "Offensive Skill",
+          "levels": 10,
+          "cast_time": "2.0 sec",
+          "cooldown": "24.3 sec",
+          "range": "20.0 m",
+          "target": "Area/Ground"
+        }
+      },
+      {
+        "id": "45300",
+        "name": "Poison Nova",
+        "maxLevel": 10
+      },
+      {
+        "id": "45900",
+        "name": "Killing Field",
+        "maxLevel": 10
+      },
+      {
+        "id": "49000",
+        "name": "Burst Trap",
+        "maxLevel": 10
+      },
+      {
+        "id": "49500",
+        "name": "Curse of Vitality",
+        "maxLevel": 10
+      },
+      {
+        "id": "41100",
+        "name": "Unstable",
+        "maxLevel": 10
+      }
+    ],
+    "38": [
+      {
+        "id": "1600",
+        "name": "Return",
+        "maxLevel": 10
+      },
+      {
+        "id": "45200",
+        "name": "Bloody Arrow",
+        "maxLevel": 10,
+        "requires": {
+          "skill downtime": {
+            "name": "3.4 sec"
+          },
+          "first job": {
+            "name": "Skill Mastery 0",
+            "level": 10
+          }
+        },
+        "info": {
+          "type": "Offensive Skill",
+          "levels": 5,
+          "cast_time": "Instant Cast",
+          "cooldown": "3.4 sec",
+          "range": "30.0 m",
+          "target": "Enemy"
+        },
+        "progression": {
+          "1": [],
+          "2": [],
+          "3": [],
+          "4": [],
+          "5": [],
+          "curse damage": [],
+          "continuous curse damage": [],
+          "duration": [],
+          "mp consumption": []
+        }
+      },
+      {
+        "id": "45800",
+        "name": "Evade",
+        "maxLevel": 10
+      },
+      {
+        "id": "47600",
+        "name": "Illusion",
+        "maxLevel": 10
+      },
+      {
+        "id": "45400",
+        "name": "Delusion",
+        "maxLevel": 10
+      },
+      {
+        "id": "41200",
+        "name": "Hermes",
+        "maxLevel": 10
+      },
+      {
+        "id": "45600",
+        "name": "Blood Nail",
+        "maxLevel": 10
+      },
+      {
+        "id": "47200",
+        "name": "Vampire Touch",
+        "maxLevel": 10
+      },
+      {
+        "id": "46700",
+        "name": "Fear",
+        "maxLevel": 10
+      },
+      {
+        "id": "47300",
+        "name": "Profanity",
+        "maxLevel": 10
+      },
+      {
+        "id": "46200",
+        "name": "Wind Dodge",
+        "maxLevel": 10
+      },
+      {
+        "id": "46400",
+        "name": "Prison",
+        "maxLevel": 10
+      },
+      {
+        "id": "48200",
+        "name": "Animate Dead",
+        "maxLevel": 10
+      },
+      {
+        "id": "47100",
+        "name": "Curse Smash",
+        "maxLevel": 10
+      },
+      {
+        "id": "47900",
+        "name": "Stone Form",
+        "maxLevel": 10
+      },
+      {
+        "id": "48300",
+        "name": "Animate Skeleton",
+        "maxLevel": 10
+      },
+      {
+        "id": "48400",
+        "name": "Medic Summon",
+        "maxLevel": 10
+      },
+      {
+        "id": "48600",
+        "name": "Summon Health",
+        "maxLevel": 10
+      },
+      {
+        "id": "49800",
+        "name": "Daze",
+        "maxLevel": 10
+      },
+      {
+        "id": "45500",
+        "name": "Curse The Weapon",
+        "maxLevel": 10
+      },
+      {
+        "id": "48500",
+        "name": "Demon Summon",
+        "maxLevel": 10
+      },
+      {
+        "id": "49100",
+        "name": "Animate Dead",
+        "maxLevel": 10
+      },
+      {
+        "id": "48800",
+        "name": "Summon Heal",
+        "maxLevel": 10
+      },
+      {
+        "id": "47500",
+        "name": "Hurt Down",
+        "maxLevel": 10
+      },
+      {
+        "id": "49200",
+        "name": "Animate Skeleton",
+        "maxLevel": 10
+      },
+      {
+        "id": "49600",
+        "name": "Stun Summon",
+        "maxLevel": 10
+      },
+      {
+        "id": "44600",
+        "name": "Curse Scythe",
+        "maxLevel": 10
+      },
+      {
+        "id": "14300",
+        "name": "Chilling Effect",
+        "maxLevel": 10
+      }
+    ],
+    "22": [
+      {
+        "id": "1700",
+        "name": "Return",
+        "maxLevel": 10
+      },
+      {
+        "id": "30100",
+        "name": "Speed Shot",
+        "maxLevel": 10
+      },
+      {
+        "id": "30700",
+        "name": "Aimed Shot",
+        "maxLevel": 10
+      },
+      {
+        "id": "30500",
+        "name": "High Consentration",
+        "maxLevel": 10,
+        "requires": {
+          "skill downtime": {
+            "name": "15.0 sec"
+          },
+          "first job": {
+            "name": "Skill Mastery 2",
+            "level": 12
+          }
+        },
+        "info": {
+          "type": "Buff Skill",
+          "levels": 5,
+          "cast_time": "Instant",
+          "cooldown": "15.0 sec",
+          "weapons": [
+            "Launcher"
+          ],
+          "range": "self",
+          "target": "self"
+        }
+      },
+      {
+        "id": "30200",
+        "name": "Double Shot",
+        "maxLevel": 10,
+        "requires": {
+          "skill downtime": {
+            "name": "6 sec"
+          },
+          "first job": {
+            "name": "Skill Mastery 0",
+            "level": 10
+          }
+        },
+        "info": {
+          "type": "Offensive Skill",
+          "levels": 5,
+          "cast_time": "1 sec",
+          "cooldown": "6 sec",
+          "weapons": [
+            "Launcher"
+          ],
+          "range": "30.0m",
+          "target": "Enemy"
+        }
+      },
+      {
+        "id": "32700",
+        "name": "Infirmity",
+        "maxLevel": 10
+      },
+      {
+        "id": "32200",
+        "name": "Low Level Taming",
+        "maxLevel": 10
+      },
+      {
+        "id": "31400",
+        "name": "Heartless",
+        "maxLevel": 10
+      },
+      {
+        "id": "30600",
+        "name": "Bust Trap",
+        "maxLevel": 10
+      },
+      {
+        "id": "31100",
+        "name": "Pierce Shot",
+        "maxLevel": 10
+      },
+      {
+        "id": "31600",
+        "name": "Entangle Shot",
+        "maxLevel": 10
+      },
+      {
+        "id": "32100",
+        "name": "Escaping",
+        "maxLevel": 10,
+        "requires": {
+          "skill downtime": {
+            "name": "23.2 Sec"
+          },
+          "first job": {
+            "name": "Skill Mastery 16",
+            "level": 26
+          }
+        },
+        "info": {
+          "type": "Active Skill",
+          "levels": 5,
+          "cast_time": "Instant Cast",
+          "cooldown": "23.2 Sec",
+          "weapons": [
+            "Launcher"
+          ],
+          "range": "-",
+          "target": "Self"
+        }
+      },
+      {
+        "id": "33700",
+        "name": "Care Taming",
+        "maxLevel": 10
+      },
+      {
+        "id": "31700",
+        "name": "Double Shot",
+        "maxLevel": 10,
+        "requires": {
+          "skill downtime": {
+            "name": "6 sec"
+          },
+          "first job": {
+            "name": "Skill Mastery 0",
+            "level": 10
+          }
+        },
+        "info": {
+          "type": "Offensive Skill",
+          "levels": 5,
+          "cast_time": "1 sec",
+          "cooldown": "6 sec",
+          "weapons": [
+            "Launcher"
+          ],
+          "range": "30.0m",
+          "target": "Enemy"
+        }
+      },
+      {
+        "id": "32800",
+        "name": "Smoke Screen",
+        "maxLevel": 10
+      },
+      {
+        "id": "30900",
+        "name": "Launcher Smash",
+        "maxLevel": 10
+      },
+      {
+        "id": "31500",
+        "name": "Guided Trap",
+        "maxLevel": 10,
+        "requires": {
+          "skill downtime": {
+            "name": "21.6 Sec"
+          },
+          "first job": {
+            "name": "Skill Mastery 10",
+            "level": 20
+          }
+        },
+        "info": {
+          "type": "Trap Skill",
+          "levels": 5,
+          "cast_time": "Instant Cast",
+          "cooldown": "21.6 Sec",
+          "range": "15.0 m",
+          "target": "Ground"
+        }
+      },
+      {
+        "id": "32500",
+        "name": "Blasting",
+        "maxLevel": 10
+      }
+    ],
+    "23": [
+      {
+        "id": "1700",
+        "name": "Return",
+        "maxLevel": 10
+      },
+      {
+        "id": "30100",
+        "name": "Speed Shot",
+        "maxLevel": 10
+      },
+      {
+        "id": "30700",
+        "name": "Aimed Shot",
+        "maxLevel": 10
+      },
+      {
+        "id": "30500",
+        "name": "Hunter Concentration",
+        "maxLevel": 10
+      },
+      {
+        "id": "30200",
+        "name": "Double Strike",
+        "maxLevel": 10,
+        "requires": {
+          "skill downtime": {
+            "name": "6.0 Sec"
+          },
+          "advanced job": {
+            "name": "Skill Mastery 46",
+            "level": 56
+          }
+        },
+        "info": {
+          "type": "Offensive Skill",
+          "levels": 5,
+          "cast_time": "Instant Cast",
+          "cooldown": "6.0 Sec",
+          "weapons": [
+            "Knuckle"
+          ],
+          "target": "Enemy"
+        },
+        "progression": {
+          "1": [],
+          "2": [],
+          "3": [],
+          "4": [],
+          "5": [],
+          "damage": [],
+          "continuous bleeding damage": [],
+          "duration": [],
+          "effective range": [],
+          "mp consumption": []
+        }
+      },
+      {
+        "id": "32700",
+        "name": "Infirmity",
+        "maxLevel": 10
+      },
+      {
+        "id": "32200",
+        "name": "Low Level Taming",
+        "maxLevel": 10
+      },
+      {
+        "id": "31400",
+        "name": "Heartless",
+        "maxLevel": 10
+      },
+      {
+        "id": "30600",
+        "name": "Bomb Trap",
+        "maxLevel": 10,
+        "requires": {
+          "advanced job": {
+            "name": "Skill Mastery 40",
+            "level": 50
+          }
+        },
+        "info": {
+          "type": "Trap Skill",
+          "levels": 5,
+          "cast_time": "Instant Cast",
+          "range": "15.0 meter",
+          "target": "Ground"
+        },
+        "progression": {
+          "1": [],
+          "2": [],
+          "3": [],
+          "4": [],
+          "5": [],
+          "damage": [],
+          "effective range": [],
+          "effects up toxtargets": [],
+          "mp comsumption": []
+        }
+      },
+      {
+        "id": "31100",
+        "name": "Pierce Shot",
+        "maxLevel": 10
+      },
+      {
+        "id": "31600",
+        "name": "Entangle Shot",
+        "maxLevel": 10
+      },
+      {
+        "id": "30300",
+        "name": "Hunter Slash",
+        "maxLevel": 10
+      },
+      {
+        "id": "32100",
+        "name": "Escape",
+        "maxLevel": 10
+      },
+      {
+        "id": "31700",
+        "name": "Multi Shot",
+        "maxLevel": 10
+      },
+      {
+        "id": "32800",
+        "name": "Smoke Screen",
+        "maxLevel": 10
+      },
+      {
+        "id": "32500",
+        "name": "Blasting",
+        "maxLevel": 10
+      },
+      {
+        "id": "31500",
+        "name": "Guided Trap",
+        "maxLevel": 10,
+        "requires": {
+          "skill downtime": {
+            "name": "21.6 Sec"
+          },
+          "first job": {
+            "name": "Skill Mastery 10",
+            "level": 20
+          }
+        },
+        "info": {
+          "type": "Trap Skill",
+          "levels": 5,
+          "cast_time": "Instant Cast",
+          "cooldown": "21.6 Sec",
+          "range": "15.0 m",
+          "target": "Ground"
+        }
+      },
+      {
+        "id": "33600",
+        "name": "Knuckle Master",
+        "maxLevel": 10
+      },
+      {
+        "id": "50200",
+        "name": "Escape",
+        "maxLevel": 10
+      },
+      {
+        "id": "33200",
+        "name": "Defense Master",
+        "maxLevel": 10
+      },
+      {
+        "id": "31800",
+        "name": "Search Trap",
+        "maxLevel": 10
+      },
+      {
+        "id": "32400",
+        "name": "Poisoning Trap",
+        "maxLevel": 10
+      },
+      {
+        "id": "33700",
+        "name": "Care Taming",
+        "maxLevel": 10
+      },
+      {
+        "id": "33400",
+        "name": "Middle Level Taming",
+        "maxLevel": 10
+      },
+      {
+        "id": "35700",
+        "name": "Knuckle Attack",
+        "maxLevel": 10
+      },
+      {
+        "id": "31900",
+        "name": "Remove Trap",
+        "maxLevel": 10
+      },
+      {
+        "id": "33500",
+        "name": "Range Trap",
+        "maxLevel": 10
+      },
+      {
+        "id": "33800",
+        "name": "Knuckle Slash",
+        "maxLevel": 10
+      },
+      {
+        "id": "34200",
+        "name": "Middle Level Taming",
+        "maxLevel": 10
+      },
+      {
+        "id": "34500",
+        "name": "Capture Recall",
+        "maxLevel": 10
+      }
+    ],
+    "24": [
+      {
+        "id": "1700",
+        "name": "Return",
+        "maxLevel": 10
+      },
+      {
+        "id": "30100",
+        "name": "Speed Shot",
+        "maxLevel": 10
+      },
+      {
+        "id": "30700",
+        "name": "Aimed Shot",
+        "maxLevel": 10
+      },
+      {
+        "id": "30500",
+        "name": "Hunter Concentration",
+        "maxLevel": 10
+      },
+      {
+        "id": "30200",
+        "name": "Double Shot",
+        "maxLevel": 10,
+        "requires": {
+          "skill downtime": {
+            "name": "6 sec"
+          },
+          "first job": {
+            "name": "Skill Mastery 0",
+            "level": 10
+          }
+        },
+        "info": {
+          "type": "Offensive Skill",
+          "levels": 5,
+          "cast_time": "1 sec",
+          "cooldown": "6 sec",
+          "weapons": [
+            "Launcher"
+          ],
+          "range": "30.0m",
+          "target": "Enemy"
+        }
+      },
+      {
+        "id": "32700",
+        "name": "Infirmity",
+        "maxLevel": 10
+      },
+      {
+        "id": "32200",
+        "name": "Low Level Taming",
+        "maxLevel": 10
+      },
+      {
+        "id": "31400",
+        "name": "Heartless",
+        "maxLevel": 10
+      },
+      {
+        "id": "30600",
+        "name": "Bust Trap",
+        "maxLevel": 10
+      },
+      {
+        "id": "31100",
+        "name": "Pierce Shot",
+        "maxLevel": 10
+      },
+      {
+        "id": "31600",
+        "name": "Entangle Shot",
+        "maxLevel": 10
+      },
+      {
+        "id": "30300",
+        "name": "Hunter Slash",
+        "maxLevel": 10
+      },
+      {
+        "id": "32100",
+        "name": "Escape",
+        "maxLevel": 10
+      },
+      {
+        "id": "31700",
+        "name": "Multi Shot",
+        "maxLevel": 10
+      },
+      {
+        "id": "32800",
+        "name": "Smoke Screen",
+        "maxLevel": 10
+      },
+      {
+        "id": "32500",
+        "name": "Blasting",
+        "maxLevel": 10
+      },
+      {
+        "id": "31500",
+        "name": "Guided Trap",
+        "maxLevel": 10,
+        "requires": {
+          "skill downtime": {
+            "name": "21.6 Sec"
+          },
+          "first job": {
+            "name": "Skill Mastery 10",
+            "level": 20
+          }
+        },
+        "info": {
+          "type": "Trap Skill",
+          "levels": 5,
+          "cast_time": "Instant Cast",
+          "cooldown": "21.6 Sec",
+          "range": "15.0 m",
+          "target": "Ground"
+        }
+      },
+      {
+        "id": "33600",
+        "name": "Knuckle Master",
+        "maxLevel": 10
+      },
+      {
+        "id": "32600",
+        "name": "Bust Shot",
+        "maxLevel": 10
+      },
+      {
+        "id": "33100",
+        "name": "Detection",
+        "maxLevel": 10,
+        "requires": {
+          "skill downtime": {
+            "name": "1 Min"
+          },
+          "advanced job": {
+            "name": "Skill Mastery 40",
+            "level": 50
+          }
+        },
+        "info": {
+          "type": "Supportive Skill",
+          "levels": 5,
+          "cast_time": "Instant Cast",
+          "cooldown": "1 Min",
+          "range": "Self",
+          "target": "Self"
+        },
+        "progression": {
+          "1": [],
+          "2": [],
+          "3": [],
+          "4": [],
+          "5": [],
+          "detection level range": [],
+          "detection range (around caster)": [],
+          "duration": [],
+          "mp consumption": []
+        }
+      },
+      {
+        "id": "30800",
+        "name": "Rise Range",
+        "maxLevel": 10
+      },
+      {
+        "id": "30900",
+        "name": "Launcher Smash",
+        "maxLevel": 10
+      },
+      {
+        "id": "31000",
+        "name": "Launcher Master",
+        "maxLevel": 10
+      },
+      {
+        "id": "34300",
+        "name": "High-Angle Firing",
+        "maxLevel": 10,
+        "requires": {
+          "skill downtime": {
+            "name": "17.4 sec"
+          },
+          "advanced job": {
+            "name": "Skill Mastery 44",
+            "level": 54
+          }
+        },
+        "info": {
+          "type": "Offensive Skill",
+          "levels": 5,
+          "cast_time": "1.5 sec",
+          "cooldown": "17.4 sec",
+          "weapons": [
+            "Launcher"
+          ],
+          "range": "30m",
+          "target": "Enemy"
+        },
+        "progression": {
+          "1": [],
+          "2": [],
+          "3": [],
+          "4": [],
+          "5": [],
+          "damage": [],
+          "continuous bleeding damage": [],
+          "duration": [],
+          "radius": [],
+          "nunber of targets": [],
+          "mp consumption": []
+        }
+      },
+      {
+        "id": "34400",
+        "name": "Blink Shot",
+        "maxLevel": 10
+      },
+      {
+        "id": "32900",
+        "name": "Canine Break",
+        "maxLevel": 10
+      },
+      {
+        "id": "34100",
+        "name": "Search Hiding",
+        "maxLevel": 10
+      },
+      {
+        "id": "32000",
+        "name": "Launcher Repair",
+        "maxLevel": 10
+      },
+      {
+        "id": "34000",
+        "name": "Fixation",
+        "maxLevel": 10
+      },
+      {
+        "id": "34600",
+        "name": "Head Shot",
+        "maxLevel": 10
+      }
+    ],
+    "26": [
+      {
+        "id": "1800",
+        "name": "Return",
+        "maxLevel": 10
+      },
+      {
+        "id": "35100",
+        "name": "Cold Lightning",
+        "maxLevel": 10
+      },
+      {
+        "id": "35800",
+        "name": "Nature Cure",
+        "maxLevel": 10
+      },
+      {
+        "id": "35300",
+        "name": "Nature Shield",
+        "maxLevel": 10
+      },
+      {
+        "id": "35200",
+        "name": "Cold Lightning Throw",
+        "maxLevel": 10
+      },
+      {
+        "id": "35900",
+        "name": "Charge Healing Attack",
+        "maxLevel": 10
+      },
+      {
+        "id": "38500",
+        "name": "Rapid Transform",
+        "maxLevel": 10
+      },
+      {
+        "id": "36300",
+        "name": "Cursed Flame",
+        "maxLevel": 10
+      },
+      {
+        "id": "35600",
+        "name": "Hydrogen Throw",
+        "maxLevel": 10
+      },
+      {
+        "id": "36600",
+        "name": "Instant Cure",
+        "maxLevel": 10
+      },
+      {
+        "id": "37600",
+        "name": "Charge Attack",
+        "maxLevel": 10
+      },
+      {
+        "id": "36100",
+        "name": "Clinging Vine",
+        "maxLevel": 10
+      },
+      {
+        "id": "38000",
+        "name": "Wide Throw",
+        "maxLevel": 10
+      },
+      {
+        "id": "36500",
+        "name": "Invisible Throw",
+        "maxLevel": 10
+      },
+      {
+        "id": "37400",
+        "name": "Pollution Throw",
+        "maxLevel": 10
+      },
+      {
+        "id": "37500",
+        "name": "Absorbing Energy",
+        "maxLevel": 10,
+        "lvlReq": [
+          16,
+          21,
+          26,
+          31,
+          36
+        ],
+        "requires": {
+          "skill downtime": {
+            "name": "12.5 sec"
+          },
+          "first job": {
+            "name": "Skill Mastery 6",
+            "level": 16
+          }
+        },
+        "info": {
+          "type": "Offensive Skill",
+          "levels": 5,
+          "cast_time": "Instant Cast",
+          "cooldown": "12.5 sec",
+          "weapons": [
+            "Bludgeon",
+            "Knuckle",
+            "Staff",
+            "Wand"
+          ],
+          "range": "20.0 m",
+          "target": "Enemy"
+        }
+      },
+      {
+        "id": "36900",
+        "name": "Condition Specie",
+        "maxLevel": 10
+      }
+    ],
+    "27": [
+      {
+        "id": "1800",
+        "name": "Return",
+        "maxLevel": 10
+      },
+      {
+        "id": "35100",
+        "name": "Cold Lightning",
+        "maxLevel": 10
+      },
+      {
+        "id": "35800",
+        "name": "Nature Cure",
+        "maxLevel": 10
+      },
+      {
+        "id": "35300",
+        "name": "Nature Shield",
+        "maxLevel": 10
+      },
+      {
+        "id": "35200",
+        "name": "Cold Lightning Throw",
+        "maxLevel": 10
+      },
+      {
+        "id": "35900",
+        "name": "Charge Healing Attack",
+        "maxLevel": 10
+      },
+      {
+        "id": "35400",
+        "name": "Approach",
+        "maxLevel": 10,
+        "requires": {
+          "skill downtime": {
+            "name": "17.0 sec"
+          },
+          "first job": {
+            "name": "Skill Mastery 2",
+            "level": 12
+          }
+        },
+        "info": {
+          "type": "Active Skill",
+          "levels": 5,
+          "cast_time": "Instant Cast",
+          "cooldown": "17.0 sec",
+          "range": "Variable"
+        }
+      },
+      {
+        "id": "36300",
+        "name": "Cursed Flame",
+        "maxLevel": 10
+      },
+      {
+        "id": "35600",
+        "name": "Hydrogen Throw",
+        "maxLevel": 10
+      },
+      {
+        "id": "36600",
+        "name": "Instant Cure",
+        "maxLevel": 10
+      },
+      {
+        "id": "38200",
+        "name": "Armor Mastery",
+        "maxLevel": 10,
+        "requires": {
+          "first job": {
+            "name": "Skill Mastery 36",
+            "level": 46
+          }
+        },
+        "info": {
+          "type": "Passive Skill",
+          "levels": 1
+        }
+      },
+      {
+        "id": "37600",
+        "name": "Charge Attack",
+        "maxLevel": 10
+      },
+      {
+        "id": "37900",
+        "name": "Anger Insect",
+        "maxLevel": 10
+      },
+      {
+        "id": "37400",
+        "name": "Pollution Throw",
+        "maxLevel": 10
+      },
+      {
+        "id": "50300",
+        "name": "Knuckle Master",
+        "maxLevel": 10
+      },
+      {
+        "id": "37500",
+        "name": "Link Energy",
+        "maxLevel": 10
+      },
+      {
+        "id": "37000",
+        "name": "Link Shield",
+        "maxLevel": 10
+      },
+      {
+        "id": "36900",
+        "name": "Condition Specie",
+        "maxLevel": 10
+      },
+      {
+        "id": "38500",
+        "name": "Rapid Transform",
+        "maxLevel": 10
+      },
+      {
+        "id": "38400",
+        "name": "Defense Transform",
+        "maxLevel": 10
+      },
+      {
+        "id": "38600",
+        "name": "Attack Transform",
+        "maxLevel": 10
+      },
+      {
+        "id": "33300",
+        "name": "Honey Bee",
+        "maxLevel": 10
+      },
+      {
+        "id": "590300",
+        "name": "Rush Forward",
+        "maxLevel": 10
+      },
+      {
+        "id": "580300",
+        "name": "HP Activation",
+        "maxLevel": 10
+      },
+      {
+        "id": "36100",
+        "name": "Clinging Vine",
+        "maxLevel": 10
+      },
+      {
+        "id": "580100",
+        "name": "Provocate Cry",
+        "maxLevel": 10
+      },
+      {
+        "id": "590000",
+        "name": "Chain Slash",
+        "maxLevel": 10
+      },
+      {
+        "id": "590100",
+        "name": "Quick Arm",
+        "maxLevel": 10
+      },
+      {
+        "id": "590400",
+        "name": "Quick Leg",
+        "maxLevel": 10
+      },
+      {
+        "id": "580500",
+        "name": "Heal Activation",
+        "maxLevel": 10
+      },
+      {
+        "id": "580200",
+        "name": "Giantizing",
+        "maxLevel": 10,
+        "requires": {
+          "advanced job": {
+            "name": "Skill Mastery 42",
+            "level": 52
+          }
+        },
+        "info": {
+          "type": "Supportive Skill",
+          "levels": 5,
+          "cast_time": "1.5sec",
+          "target": "Self"
+        },
+        "progression": {
+          "1": [],
+          "2": [],
+          "3": [],
+          "4": [],
+          "5": [],
+          "max hp": [],
+          "duration": [],
+          "mp consumption": []
+        }
+      },
+      {
+        "id": "590200",
+        "name": "Blood Wound",
+        "maxLevel": 10
+      },
+      {
+        "id": "590500",
+        "name": "Double Slash",
+        "maxLevel": 10,
+        "requires": {
+          "skill downtime": {
+            "name": "6.0 sec"
+          },
+          "advanced job": {
+            "name": "Skill Mastery 42",
+            "level": 52
+          }
+        },
+        "info": {
+          "type": "Offensive Skill",
+          "levels": 5,
+          "cast_time": "Instant Cast",
+          "cooldown": "6.0 sec",
+          "target": "Enemy"
+        },
+        "progression": {
+          "1": [],
+          "2": [],
+          "3": [],
+          "4": [],
+          "5": [],
+          "damage": [],
+          "mp consumption": []
+        }
+      },
+      {
+        "id": "37800",
+        "name": "Physics Counter Attack",
+        "maxLevel": 10
+      },
+      {
+        "id": "38300",
+        "name": "Attack Presto",
+        "maxLevel": 10
+      },
+      {
+        "id": "36700",
+        "name": "Charge Defense Attack",
+        "maxLevel": 10
+      },
+      {
+        "id": "38100",
+        "name": "Great Outcry",
+        "maxLevel": 10
+      },
+      {
+        "id": "580400",
+        "name": "Strikedown",
+        "maxLevel": 10
+      },
+      {
+        "id": "580600",
+        "name": "Shock Cry",
+        "maxLevel": 10
+      }
+    ],
+    "28": [
+      {
+        "id": "1800",
+        "name": "Return",
+        "maxLevel": 10
+      },
+      {
+        "id": "35100",
+        "name": "Cold Lightning",
+        "maxLevel": 10
+      },
+      {
+        "id": "35800",
+        "name": "Nature Cure",
+        "maxLevel": 10
+      },
+      {
+        "id": "35300",
+        "name": "Nature Shield",
+        "maxLevel": 10
+      },
+      {
+        "id": "35200",
+        "name": "Cold Lightning Throw",
+        "maxLevel": 10
+      },
+      {
+        "id": "35900",
+        "name": "Charge Healing Attack",
+        "maxLevel": 10
+      },
+      {
+        "id": "35400",
+        "name": "Approach",
+        "maxLevel": 10,
+        "requires": {
+          "skill downtime": {
+            "name": "17.0 sec"
+          },
+          "first job": {
+            "name": "Skill Mastery 2",
+            "level": 12
+          }
+        },
+        "info": {
+          "type": "Active Skill",
+          "levels": 5,
+          "cast_time": "Instant Cast",
+          "cooldown": "17.0 sec",
+          "range": "Variable"
+        }
+      },
+      {
+        "id": "36300",
+        "name": "Cursed Flame",
+        "maxLevel": 10
+      },
+      {
+        "id": "35600",
+        "name": "Hydrogen Throw",
+        "maxLevel": 10
+      },
+      {
+        "id": "36600",
+        "name": "Instant Cure",
+        "maxLevel": 10
+      },
+      {
+        "id": "38200",
+        "name": "Armor Mastery",
+        "maxLevel": 10,
+        "requires": {
+          "first job": {
+            "name": "Skill Mastery 36",
+            "level": 46
+          }
+        },
+        "info": {
+          "type": "Passive Skill",
+          "levels": 1
+        }
+      },
+      {
+        "id": "37600",
+        "name": "Charge Attack",
+        "maxLevel": 10
+      },
+      {
+        "id": "37900",
+        "name": "Anger Insect",
+        "maxLevel": 10
+      },
+      {
+        "id": "37400",
+        "name": "Pollution Throw",
+        "maxLevel": 10
+      },
+      {
+        "id": "50300",
+        "name": "Knuckle Master",
+        "maxLevel": 10
+      },
+      {
+        "id": "37500",
+        "name": "Link Energy",
+        "maxLevel": 10
+      },
+      {
+        "id": "37000",
+        "name": "Link Shield",
+        "maxLevel": 10
+      },
+      {
+        "id": "36900",
+        "name": "Condition Specie",
+        "maxLevel": 10
+      },
+      {
+        "id": "39600",
+        "name": "Hydrophobia",
+        "maxLevel": 10
+      },
+      {
+        "id": "39900",
+        "name": "Aerophobia",
+        "maxLevel": 10
+      },
+      {
+        "id": "39800",
+        "name": "Pyrophobia",
+        "maxLevel": 10
+      },
+      {
+        "id": "39700",
+        "name": "Electrophobia",
+        "maxLevel": 10
+      },
+      {
+        "id": "37700",
+        "name": "Link Blessing",
+        "maxLevel": 10
+      },
+      {
+        "id": "36500",
+        "name": "Invisible Throw",
+        "maxLevel": 10
+      },
+      {
+        "id": "33900",
+        "name": "Frostbite",
+        "maxLevel": 10
+      },
+      {
+        "id": "38000",
+        "name": "Lightning Storm",
+        "maxLevel": 10
+      },
+      {
+        "id": "39300",
+        "name": "Wide Search Hiding",
+        "maxLevel": 10
+      },
+      {
+        "id": "38700",
+        "name": "Magic Weapon Master",
+        "maxLevel": 10
+      },
+      {
+        "id": "38900",
+        "name": "Snow Blust",
+        "maxLevel": 10
+      },
+      {
+        "id": "39200",
+        "name": "Hotdesert",
+        "maxLevel": 10
+      },
+      {
+        "id": "36800",
+        "name": "Flame Counter Attack",
+        "maxLevel": 10
+      },
+      {
+        "id": "39000",
+        "name": "Magic Focus",
+        "maxLevel": 10
+      },
+      {
+        "id": "39400",
+        "name": "Elemental Ora",
+        "maxLevel": 10
+      },
+      {
+        "id": "36200",
+        "name": "Hunter Concentration",
+        "maxLevel": 10
+      },
+      {
+        "id": "39500",
+        "name": "Mind Strengthen",
+        "maxLevel": 10
+      }
+    ]
+  },
+  "dna": {
+    "2": [
+      {
+        "id": "610200",
+        "name": "Bless of Body",
+        "maxLevel": 10
+      },
+      {
+        "id": "610100",
+        "name": "Desire for Life",
+        "maxLevel": 10
+      },
+      {
+        "id": "610400",
+        "name": "Concentrate",
+        "maxLevel": 10
+      },
+      {
+        "id": "611000",
+        "name": "Equilibrium",
+        "maxLevel": 10
+      },
+      {
+        "id": "610900",
+        "name": "Attention Accuracy",
+        "maxLevel": 10
+      },
+      {
+        "id": "611400",
+        "name": "Shield Hit Accuracy",
+        "maxLevel": 10
+      },
+      {
+        "id": "610800",
+        "name": "Shield Intensify",
+        "maxLevel": 10
+      },
+      {
+        "id": "610600",
+        "name": "Defense Up",
+        "maxLevel": 10
+      },
+      {
+        "id": "600200",
+        "name": "Equilibrium",
+        "maxLevel": 10
+      },
+      {
+        "id": "611100",
+        "name": "Equilibrium",
+        "maxLevel": 10
+      },
+      {
+        "id": "600100",
+        "name": "Attention Accuracy",
+        "maxLevel": 10
+      },
+      {
+        "id": "600300",
+        "name": "Shield Hit Accuracy",
+        "maxLevel": 10
+      }
+    ],
+    "3": [
+      {
+        "id": "610200",
+        "name": "Bless of Body",
+        "maxLevel": 10
+      },
+      {
+        "id": "610100",
+        "name": "Desire for Life",
+        "maxLevel": 10
+      },
+      {
+        "id": "610400",
+        "name": "Concentrate",
+        "maxLevel": 10
+      },
+      {
+        "id": "611000",
+        "name": "Equilibrium",
+        "maxLevel": 10
+      },
+      {
+        "id": "610900",
+        "name": "Attention Accuracy",
+        "maxLevel": 10
+      },
+      {
+        "id": "611400",
+        "name": "Shield Hit Accuracy",
+        "maxLevel": 10
+      },
+      {
+        "id": "610800",
+        "name": "Shield Intensify",
+        "maxLevel": 10
+      },
+      {
+        "id": "610600",
+        "name": "Defense Up",
+        "maxLevel": 10
+      },
+      {
+        "id": "600200",
+        "name": "Equilibrium",
+        "maxLevel": 10
+      },
+      {
+        "id": "611100",
+        "name": "Equilibrium",
+        "maxLevel": 10
+      },
+      {
+        "id": "600100",
+        "name": "Attention Accuracy",
+        "maxLevel": 10
+      },
+      {
+        "id": "600300",
+        "name": "Shield Hit Accuracy",
+        "maxLevel": 10
+      }
+    ],
+    "4": [
+      {
+        "id": "610200",
+        "name": "Bless of Body",
+        "maxLevel": 10
+      },
+      {
+        "id": "610100",
+        "name": "Desire for Life",
+        "maxLevel": 10
+      },
+      {
+        "id": "610400",
+        "name": "Concentrate",
+        "maxLevel": 10
+      },
+      {
+        "id": "611000",
+        "name": "Equilibrium",
+        "maxLevel": 10
+      },
+      {
+        "id": "610900",
+        "name": "Attention Accuracy",
+        "maxLevel": 10
+      },
+      {
+        "id": "611400",
+        "name": "Shield Hit Accuracy",
+        "maxLevel": 10
+      },
+      {
+        "id": "610800",
+        "name": "Shield Intensify",
+        "maxLevel": 10
+      },
+      {
+        "id": "610600",
+        "name": "Defense Up",
+        "maxLevel": 10
+      },
+      {
+        "id": "600200",
+        "name": "Equilibrium",
+        "maxLevel": 10
+      },
+      {
+        "id": "611100",
+        "name": "Equilibrium",
+        "maxLevel": 10
+      },
+      {
+        "id": "600100",
+        "name": "Attention Accuracy",
+        "maxLevel": 10
+      },
+      {
+        "id": "600300",
+        "name": "Shield Hit Accuracy",
+        "maxLevel": 10
+      },
+      {
+        "id": "611500",
+        "name": "Remedy Cast",
+        "maxLevel": 10
+      },
+      {
+        "id": "611200",
+        "name": "Shield Sense",
+        "maxLevel": 10
+      }
+    ],
+    "6": [
+      {
+        "id": "620100",
+        "name": "Self Heal",
+        "maxLevel": 10
+      },
+      {
+        "id": "620200",
+        "name": "Lightning Shield",
+        "maxLevel": 10
+      },
+      {
+        "id": "621200",
+        "name": "Self Lightning Shock Cast",
+        "maxLevel": 10
+      },
+      {
+        "id": "620400",
+        "name": "Bless of Mana",
+        "maxLevel": 10
+      },
+      {
+        "id": "620600",
+        "name": "Light Heal",
+        "maxLevel": 10
+      },
+      {
+        "id": "621500",
+        "name": "Lightning Shock Cooltime",
+        "maxLevel": 10
+      },
+      {
+        "id": "600900",
+        "name": "Light Heal",
+        "maxLevel": 10
+      },
+      {
+        "id": "621300",
+        "name": "Self Lightning Shock",
+        "maxLevel": 10
+      },
+      {
+        "id": "620700",
+        "name": "Light Heal Cast",
+        "maxLevel": 10
+      },
+      {
+        "id": "620800",
+        "name": "Light Heal Mana",
+        "maxLevel": 10
+      }
+    ],
+    "7": [
+      {
+        "id": "620100",
+        "name": "Self Heal",
+        "maxLevel": 10
+      },
+      {
+        "id": "620200",
+        "name": "Lightning Shield",
+        "maxLevel": 10
+      },
+      {
+        "id": "621200",
+        "name": "Self Lightning Shock Cast",
+        "maxLevel": 10
+      },
+      {
+        "id": "620400",
+        "name": "Bless of Mana",
+        "maxLevel": 10
+      },
+      {
+        "id": "620600",
+        "name": "Light Heal",
+        "maxLevel": 10
+      },
+      {
+        "id": "621500",
+        "name": "Lightning Shock Cooltime",
+        "maxLevel": 10
+      },
+      {
+        "id": "600900",
+        "name": "Light Heal",
+        "maxLevel": 10
+      },
+      {
+        "id": "621300",
+        "name": "Self Lightning Shock",
+        "maxLevel": 10
+      },
+      {
+        "id": "620700",
+        "name": "Light Heal Cast",
+        "maxLevel": 10
+      },
+      {
+        "id": "620800",
+        "name": "Light Heal Mana",
+        "maxLevel": 10
+      },
+      {
+        "id": "621000",
+        "name": "Holy Reflection Accuracy",
+        "maxLevel": 10
+      },
+      {
+        "id": "621100",
+        "name": "Holy Reflection Time",
+        "maxLevel": 10
+      }
+    ],
+    "8": [
+      {
+        "id": "620100",
+        "name": "Self Heal",
+        "maxLevel": 10
+      },
+      {
+        "id": "620200",
+        "name": "Lightning Shield",
+        "maxLevel": 10
+      },
+      {
+        "id": "621200",
+        "name": "Self Lightning Shock Cast",
+        "maxLevel": 10
+      },
+      {
+        "id": "620400",
+        "name": "Bless of Mana",
+        "maxLevel": 10
+      },
+      {
+        "id": "620600",
+        "name": "Light Heal",
+        "maxLevel": 10
+      },
+      {
+        "id": "621500",
+        "name": "Lightning Shock Cooltime",
+        "maxLevel": 10
+      },
+      {
+        "id": "600900",
+        "name": "Light Heal",
+        "maxLevel": 10
+      },
+      {
+        "id": "621300",
+        "name": "Self Lightning Shock",
+        "maxLevel": 10
+      },
+      {
+        "id": "620700",
+        "name": "Light Heal Cast",
+        "maxLevel": 10
+      },
+      {
+        "id": "620800",
+        "name": "Light Heal Mana",
+        "maxLevel": 10
+      },
+      {
+        "id": "621400",
+        "name": "Light Party Heal",
+        "maxLevel": 10
+      },
+      {
+        "id": "620900",
+        "name": "Desire for Life",
+        "maxLevel": 10
+      }
+    ],
+    "12": [
+      {
+        "id": "631000",
+        "name": "Concentrate",
+        "maxLevel": 10
+      },
+      {
+        "id": "630100",
+        "name": "Last Ditch",
+        "maxLevel": 10
+      },
+      {
+        "id": "630200",
+        "name": "Dash Cooltime",
+        "maxLevel": 10
+      },
+      {
+        "id": "631300",
+        "name": "Hammer The Butcher",
+        "maxLevel": 10
+      },
+      {
+        "id": "630600",
+        "name": "Bless of Body",
+        "maxLevel": 10
+      },
+      {
+        "id": "630700",
+        "name": "Bless of Body Time",
+        "maxLevel": 10
+      },
+      {
+        "id": "683300",
+        "name": "Double Hand Master",
+        "maxLevel": 10
+      },
+      {
+        "id": "633700",
+        "name": "Burning Hell",
+        "maxLevel": 10
+      },
+      {
+        "id": "630400",
+        "name": "Courage",
+        "maxLevel": 10
+      },
+      {
+        "id": "630300",
+        "name": "Dash",
+        "maxLevel": 10
+      },
+      {
+        "id": "631400",
+        "name": "Iron Physics",
+        "maxLevel": 10
+      },
+      {
+        "id": "631200",
+        "name": "Two Hand Master",
+        "maxLevel": 10
+      }
+    ],
+    "13": [
+      {
+        "id": "631000",
+        "name": "Concentrate",
+        "maxLevel": 10
+      },
+      {
+        "id": "630100",
+        "name": "Last Ditch",
+        "maxLevel": 10
+      },
+      {
+        "id": "630200",
+        "name": "Dash Cooltime",
+        "maxLevel": 10
+      },
+      {
+        "id": "631300",
+        "name": "Hammer The Butcher",
+        "maxLevel": 10
+      },
+      {
+        "id": "630600",
+        "name": "Bless of Body",
+        "maxLevel": 10
+      },
+      {
+        "id": "630700",
+        "name": "Bless of Body Time",
+        "maxLevel": 10
+      },
+      {
+        "id": "683300",
+        "name": "Double Hand Master",
+        "maxLevel": 10
+      },
+      {
+        "id": "633700",
+        "name": "Burning Hell",
+        "maxLevel": 10
+      },
+      {
+        "id": "630400",
+        "name": "Courage",
+        "maxLevel": 10
+      },
+      {
+        "id": "630300",
+        "name": "Dash",
+        "maxLevel": 10
+      },
+      {
+        "id": "631400",
+        "name": "Iron Physics",
+        "maxLevel": 10
+      },
+      {
+        "id": "631200",
+        "name": "Two Hand Master",
+        "maxLevel": 10
+      },
+      {
+        "id": "631600",
+        "name": "Bless of Body",
+        "maxLevel": 10
+      },
+      {
+        "id": "631500",
+        "name": "Unblocking",
+        "maxLevel": 10
+      }
+    ],
+    "14": [
+      {
+        "id": "631000",
+        "name": "Concentrate",
+        "maxLevel": 10
+      },
+      {
+        "id": "630100",
+        "name": "Last Ditch",
+        "maxLevel": 10
+      },
+      {
+        "id": "630200",
+        "name": "Dash Cooltime",
+        "maxLevel": 10
+      },
+      {
+        "id": "631300",
+        "name": "Hammer The Butcher",
+        "maxLevel": 10
+      },
+      {
+        "id": "630600",
+        "name": "Bless of Body",
+        "maxLevel": 10
+      },
+      {
+        "id": "630700",
+        "name": "Bless of Body Time",
+        "maxLevel": 10
+      },
+      {
+        "id": "683300",
+        "name": "Double Hand Master",
+        "maxLevel": 10
+      },
+      {
+        "id": "633700",
+        "name": "Burning Hell",
+        "maxLevel": 10
+      },
+      {
+        "id": "630400",
+        "name": "Courage",
+        "maxLevel": 10
+      },
+      {
+        "id": "630300",
+        "name": "Dash",
+        "maxLevel": 10
+      },
+      {
+        "id": "631400",
+        "name": "Iron Physics",
+        "maxLevel": 10
+      },
+      {
+        "id": "631200",
+        "name": "Two Hand Master",
+        "maxLevel": 10
+      },
+      {
+        "id": "630800",
+        "name": "Backspin Slash",
+        "maxLevel": 10
+      },
+      {
+        "id": "630900",
+        "name": "Backspin Slash Cooltime",
+        "maxLevel": 10
+      },
+      {
+        "id": "633300",
+        "name": "Light Heal Mana",
+        "maxLevel": 10
+      },
+      {
+        "id": "633200",
+        "name": "Bless of Body Time",
+        "maxLevel": 10
+      },
+      {
+        "id": "633400",
+        "name": "Unblocking",
+        "maxLevel": 10
+      },
+      {
+        "id": "633500",
+        "name": "Light Party Heal",
+        "maxLevel": 10
+      },
+      {
+        "id": "633600",
+        "name": "Bless of Body",
+        "maxLevel": 10
+      }
+    ],
+    "16": [
+      {
+        "id": "640100",
+        "name": "Fire Ball",
+        "maxLevel": 10
+      },
+      {
+        "id": "641000",
+        "name": "Flame Thrower",
+        "maxLevel": 10
+      },
+      {
+        "id": "640400",
+        "name": "Charm Of Mana",
+        "maxLevel": 10
+      },
+      {
+        "id": "640500",
+        "name": "Flame Arrow",
+        "maxLevel": 10
+      },
+      {
+        "id": "641500",
+        "name": "Flame Nova",
+        "maxLevel": 10
+      },
+      {
+        "id": "640800",
+        "name": "Dutch Courage",
+        "maxLevel": 10
+      },
+      {
+        "id": "641200",
+        "name": "Burning Hell Longer",
+        "maxLevel": 10
+      },
+      {
+        "id": "641300",
+        "name": "Burning Hell",
+        "maxLevel": 10
+      },
+      {
+        "id": "641100",
+        "name": "Flame Thrower",
+        "maxLevel": 10
+      }
+    ],
+    "17": [
+      {
+        "id": "640100",
+        "name": "Fire Ball",
+        "maxLevel": 10
+      },
+      {
+        "id": "641000",
+        "name": "Flame Thrower",
+        "maxLevel": 10
+      },
+      {
+        "id": "640400",
+        "name": "Charm Of Mana",
+        "maxLevel": 10
+      },
+      {
+        "id": "640500",
+        "name": "Flame Arrow",
+        "maxLevel": 10
+      },
+      {
+        "id": "641500",
+        "name": "Flame Nova",
+        "maxLevel": 10
+      },
+      {
+        "id": "640800",
+        "name": "Dutch Courage",
+        "maxLevel": 10
+      },
+      {
+        "id": "641200",
+        "name": "Burning Hell Longer",
+        "maxLevel": 10
+      },
+      {
+        "id": "641300",
+        "name": "Burning Hell",
+        "maxLevel": 10
+      },
+      {
+        "id": "641100",
+        "name": "Flame Thrower",
+        "maxLevel": 10
+      },
+      {
+        "id": "640900",
+        "name": "Flame Shield",
+        "maxLevel": 10
+      },
+      {
+        "id": "601000",
+        "name": "Fire Totem Cast",
+        "maxLevel": 10
+      },
+      {
+        "id": "640600",
+        "name": "Fire Totem Cast",
+        "maxLevel": 10
+      },
+      {
+        "id": "640700",
+        "name": "Fire Totem Cast",
+        "maxLevel": 10
+      },
+      {
+        "id": "641400",
+        "name": "Plague Charm",
+        "maxLevel": 10
+      }
+    ],
+    "18": [
+      {
+        "id": "640100",
+        "name": "Fire Ball",
+        "maxLevel": 10
+      },
+      {
+        "id": "641000",
+        "name": "Flame Thrower",
+        "maxLevel": 10
+      },
+      {
+        "id": "640400",
+        "name": "Charm Of Mana",
+        "maxLevel": 10
+      },
+      {
+        "id": "640500",
+        "name": "Flame Arrow",
+        "maxLevel": 10
+      },
+      {
+        "id": "641500",
+        "name": "Flame Nova",
+        "maxLevel": 10
+      },
+      {
+        "id": "640800",
+        "name": "Dutch Courage",
+        "maxLevel": 10
+      },
+      {
+        "id": "641200",
+        "name": "Burning Hell Longer",
+        "maxLevel": 10
+      },
+      {
+        "id": "641300",
+        "name": "Burning Hell",
+        "maxLevel": 10
+      },
+      {
+        "id": "641100",
+        "name": "Flame Thrower",
+        "maxLevel": 10
+      },
+      {
+        "id": "640200",
+        "name": "Fire Rain",
+        "maxLevel": 10
+      },
+      {
+        "id": "640300",
+        "name": "Fire Rain Cast",
+        "maxLevel": 10
+      }
+    ],
+    "32": [
+      {
+        "id": "650100",
+        "name": "Concentrate",
+        "maxLevel": 10
+      },
+      {
+        "id": "650300",
+        "name": "Speed Weapon Time",
+        "maxLevel": 10
+      },
+      {
+        "id": "650500",
+        "name": "Stealth",
+        "maxLevel": 10
+      },
+      {
+        "id": "650900",
+        "name": "Leg Strike Time",
+        "maxLevel": 10
+      },
+      {
+        "id": "650400",
+        "name": "Stinger",
+        "maxLevel": 10
+      },
+      {
+        "id": "650200",
+        "name": "Concentrate Time",
+        "maxLevel": 10
+      }
+    ],
+    "33": [
+      {
+        "id": "650100",
+        "name": "Concentrate",
+        "maxLevel": 10
+      },
+      {
+        "id": "602400",
+        "name": "Stinger",
+        "maxLevel": 10
+      },
+      {
+        "id": "650500",
+        "name": "Stealth",
+        "maxLevel": 10
+      },
+      {
+        "id": "650900",
+        "name": "Leg Strike Time",
+        "maxLevel": 10
+      },
+      {
+        "id": "650400",
+        "name": "Stinger",
+        "maxLevel": 10
+      },
+      {
+        "id": "602500",
+        "name": "Leg Strike Time",
+        "maxLevel": 10
+      },
+      {
+        "id": "651100",
+        "name": "Range Weapon Master",
+        "maxLevel": 10
+      },
+      {
+        "id": "651300",
+        "name": "Armour Crash Combo Time",
+        "maxLevel": 10
+      }
+    ],
+    "34": [
+      {
+        "id": "650100",
+        "name": "Concentrate",
+        "maxLevel": 10
+      },
+      {
+        "id": "650300",
+        "name": "Speed Weapon Time",
+        "maxLevel": 10
+      },
+      {
+        "id": "650500",
+        "name": "Stealth",
+        "maxLevel": 10
+      },
+      {
+        "id": "650900",
+        "name": "Leg Strike Time",
+        "maxLevel": 10
+      },
+      {
+        "id": "650400",
+        "name": "Stinger",
+        "maxLevel": 10
+      },
+      {
+        "id": "650200",
+        "name": "Concentrate Time",
+        "maxLevel": 10
+      },
+      {
+        "id": "650800",
+        "name": "Screw Attack Time",
+        "maxLevel": 10
+      },
+      {
+        "id": "651000",
+        "name": "Double Hand Master",
+        "maxLevel": 10
+      },
+      {
+        "id": "651200",
+        "name": "Wide Crash",
+        "maxLevel": 10
+      }
+    ],
+    "36": [
+      {
+        "id": "661000",
+        "name": "Evade",
+        "maxLevel": 10
+      },
+      {
+        "id": "660300",
+        "name": "Delusion",
+        "maxLevel": 10
+      },
+      {
+        "id": "660100",
+        "name": "Blood Bolt Time",
+        "maxLevel": 10
+      },
+      {
+        "id": "661500",
+        "name": "Vampire Touch",
+        "maxLevel": 10
+      },
+      {
+        "id": "661300",
+        "name": "Prison Time",
+        "maxLevel": 10
+      },
+      {
+        "id": "660600",
+        "name": "Blood Nail Time",
+        "maxLevel": 10
+      },
+      {
+        "id": "660800",
+        "name": "Vampire Touch",
+        "maxLevel": 10
+      }
+    ],
+    "37": [
+      {
+        "id": "661000",
+        "name": "Evade",
+        "maxLevel": 10
+      },
+      {
+        "id": "660300",
+        "name": "Delusion",
+        "maxLevel": 10
+      },
+      {
+        "id": "660100",
+        "name": "Blood Bolt Time",
+        "maxLevel": 10
+      },
+      {
+        "id": "661500",
+        "name": "Vampire Touch",
+        "maxLevel": 10
+      },
+      {
+        "id": "661300",
+        "name": "Prison Time",
+        "maxLevel": 10
+      },
+      {
+        "id": "660600",
+        "name": "Blood Nail Time",
+        "maxLevel": 10
+      },
+      {
+        "id": "660800",
+        "name": "Vampire Touch",
+        "maxLevel": 10
+      },
+      {
+        "id": "660200",
+        "name": "Poison Nova",
+        "maxLevel": 10
+      },
+      {
+        "id": "661200",
+        "name": "Blood Buster Wide",
+        "maxLevel": 10
+      },
+      {
+        "id": "661400",
+        "name": "Time Bomb",
+        "maxLevel": 10
+      }
+    ],
+    "38": [
+      {
+        "id": "661000",
+        "name": "Evade",
+        "maxLevel": 10
+      },
+      {
+        "id": "660300",
+        "name": "Delusion",
+        "maxLevel": 10
+      },
+      {
+        "id": "660100",
+        "name": "Blood Bolt Time",
+        "maxLevel": 10
+      },
+      {
+        "id": "661500",
+        "name": "Vampire Touch",
+        "maxLevel": 10
+      },
+      {
+        "id": "661300",
+        "name": "Prison Time",
+        "maxLevel": 10
+      },
+      {
+        "id": "660600",
+        "name": "Blood Nail Time",
+        "maxLevel": 10
+      },
+      {
+        "id": "660800",
+        "name": "Vampire Touch",
+        "maxLevel": 10
+      }
+    ],
+    "22": [],
+    "23": [],
+    "24": [],
+    "26": [],
+    "27": [],
+    "28": []
+  }
+}
